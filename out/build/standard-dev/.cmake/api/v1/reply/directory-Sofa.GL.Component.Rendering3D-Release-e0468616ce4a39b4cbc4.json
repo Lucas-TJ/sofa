@@ -1,0 +1,304 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/GL/Component/Rendering3D/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.GL.Component.Rendering3D",
+			"exportName" : "Sofa.GL.Component.Rendering3DTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.GL.Component.Rendering3D::@9e7b83644b199b0c4e73",
+					"index" : 148
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/CMakeFiles/Export/lib/cmake/Sofa.GL.Component.Rendering3D/Sofa.GL.Component.Rendering3DTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.GL.Component.Rendering3D",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/GL/Component/Rendering3D/Sofa.GL.Component.Rendering3DConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.GL.Component.Rendering3D",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.GL.Component.Rendering3DConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.GL.Component.Rendering3D.so.25.06.99"
+			],
+			"targetId" : "Sofa.GL.Component.Rendering3D::@9e7b83644b199b0c4e73",
+			"targetIndex" : 148,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.GL.Component.Rendering3D.so"
+			],
+			"targetId" : "Sofa.GL.Component.Rendering3D::@9e7b83644b199b0c4e73",
+			"targetIndex" : 148,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/ClipPlane.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/DataDisplay.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/MergeVisualModels.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/OglCylinderModel.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/OglModel.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/OglSceneFrame.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/PointSplatModel.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.GL.Component.Rendering3D/sofa/gl/component/rendering3d",
+			"paths" : 
+			[
+				"Sofa/GL/Component/Rendering3D/src/sofa/gl/component/rendering3d/SlicedVolumetricModel.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/GL/Component/Rendering3D",
+		"source" : "Sofa/GL/Component/Rendering3D"
+	}
+}

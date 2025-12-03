@@ -1,0 +1,632 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Sofa.GL.Component.Rendering3D_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"Sofa/GL/Component/Rendering3D/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DGTEST_LINKED_AS_SHARED_LIBRARY=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-attributes"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fstack-protector"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "--param=ssp-buffer-size=4"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-D_FORTIFY_SOURCE=2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Testing/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Testing"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Helper/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Helper"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Config/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Type/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Type"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Topology/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Topology"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Geometry/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Geometry"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/DefaultType/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.DefaultType"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/LinearAlgebra/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.LinearAlgebra"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Core/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Graph/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Graph"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Common/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Core/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/SimpleApi/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.SimpleApi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Engine/Testing/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Rendering2D/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Rendering2D"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Visual/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Visual"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Grid/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Grid"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Constant/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Constant"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Setting/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Setting"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Rendering3D/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Rendering3D"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Engine/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Engine"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Shader/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Shader"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/json"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/stb"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/difflib"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Config::@730f02ad748423dea8fd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Type::@95b2bb8b053e82ee6361"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Geometry::@99e8c95a2ceaea5bb399"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Topology::@dca20f37709278ae47aa"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Helper::@fa423ea344d2b6639e62"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.DefaultType::@f752d8a2578d01e3eebe"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Core::@9b941b0b5f919da80dc3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Common::@5068756e761c412414f9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.SimpleApi::@ca8cd8dcfec90851d048"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Testing::@2da6544d092703efcd5c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SofaGTestMain::@c6410f56244a103d5332"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.Component.Visual::@32f7f23ba447dcbc99fa"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.Component.Setting::@653ed1c7c0c98402117a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Component.Engine.Testing::@137d3c4e082dc7ad1e14"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL::@e277cbc1a12c2aa73a4b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL.Component::@d0a45d37e25ad95ff063"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL.Component.Rendering2D::@6b461ae0cc0af41f128d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL.Component.Rendering3D::@9e7b83644b199b0c4e73"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL.Component.Engine::@914e08936430f3995652"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Sofa.GL.Component.Shader::@39bbbe92341d2a06f51f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Testing"
+	},
+	"id" : "Sofa.GL.Component.Rendering3D_test::@3fd29bfbe46279dc88fd",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../../lib/libSofa.Testing.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../../lib/libSofa.Component.Engine.Testing.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libSofa.GL.Component.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.SimpleApi.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofaGTestMain.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Graph.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libgtest.so.1.14.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Engine.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Shader.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Rendering3D.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Rendering2D.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Setting.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Visual.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Container.Grid.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Container.Constant.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.DefaultType.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.LinearAlgebra.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Helper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Topology.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Type.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Config.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLEW.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Sofa.GL.Component.Rendering3D_test",
+	"nameOnDisk" : "Sofa.GL.Component.Rendering3D_test",
+	"paths" : 
+	{
+		"build" : "Sofa/GL/Component/Rendering3D/tests",
+		"source" : "Sofa/GL/Component/Rendering3D/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sofa/GL/Component/Rendering3D/tests/ClipPlane_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sofa/GL/Component/Rendering3D/tests/OglModel_test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

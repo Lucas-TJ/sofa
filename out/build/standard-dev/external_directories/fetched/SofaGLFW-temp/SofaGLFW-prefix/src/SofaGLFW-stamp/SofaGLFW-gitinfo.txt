@@ -1,0 +1,3 @@
+repository='https://www.github.com/sofa-framework/SofaGLFW.git'
+module=''
+tag='origin'

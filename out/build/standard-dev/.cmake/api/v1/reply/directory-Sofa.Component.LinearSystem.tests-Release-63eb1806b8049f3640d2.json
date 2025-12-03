@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/LinearSystem/tests",
+		"source" : "Sofa/Component/LinearSystem/tests"
+	}
+}

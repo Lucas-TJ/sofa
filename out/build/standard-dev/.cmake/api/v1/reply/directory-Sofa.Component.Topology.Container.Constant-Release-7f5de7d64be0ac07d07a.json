@@ -1,0 +1,224 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Topology/Container/Constant/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Constant",
+			"exportName" : "Sofa.Component.Topology.Container.ConstantTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db",
+					"index" : 121
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Constant/CMakeFiles/Export/lib/cmake/Sofa.Component.Topology.Container.Constant/Sofa.Component.Topology.Container.ConstantTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Constant",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Topology/Container/Constant/Sofa.Component.Topology.Container.ConstantConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Constant",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.Topology.Container.ConstantConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Topology.Container.Constant.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db",
+			"targetIndex" : 121,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Topology.Container.Constant.so"
+			],
+			"targetId" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db",
+			"targetIndex" : 121,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Constant/src/sofa/component/topology/container/constant/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Constant/src/sofa/component/topology/container/constant/MeshTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Constant/src/sofa/component/topology/container/constant/CubeTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Constant/sofa/component/topology/container/constant",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Constant/src/sofa/component/topology/container/constant/SphereQuadTopology.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Topology/Container/Constant",
+		"source" : "Sofa/Component/Topology/Container/Constant"
+	}
+}

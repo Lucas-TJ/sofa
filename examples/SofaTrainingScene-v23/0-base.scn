@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<!-- Nothing -->
+<Node name="root" dt="0.01" gravity="0 0 0">
+
+    <DefaultAnimationLoop />
+
+    <Node name="myObject" bbox="-1 -1 -1 1 1 1">
+
+    </Node>
+    
+</Node>

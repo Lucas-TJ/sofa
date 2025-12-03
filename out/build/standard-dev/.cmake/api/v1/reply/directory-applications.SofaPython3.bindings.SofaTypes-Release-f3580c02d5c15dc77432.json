@@ -1,0 +1,275 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_package",
+			"SP3_add_python_module",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 102,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 174,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 197,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 205,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 248,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 602,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 14
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "lib/python3/site-packages/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/python3/site-packages/SofaTypes/__init__.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/SofaTypes",
+			"paths" : 
+			[
+				"lib/python3/site-packages/SofaTypes/SofaTypes.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaTypes::@7116c09e4562ee36d1e7",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Mat.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Quat.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Vec.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "Bindings.SofaTypesTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings.SofaTypes::@7116c09e4562ee36d1e7",
+					"index" : 16
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/bindings/SofaTypes/CMakeFiles/Export/lib/cmake/SofaPython3/Bindings.SofaTypesTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/bindings/SofaTypes/Bindings.SofaTypesConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Bindings.SofaTypesConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/python3/site-packages/SofaTypes/SofaTypes.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaTypes::@7116c09e4562ee36d1e7",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaTypes/src/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Mat.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaTypes/src/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Quat.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaTypes/src/SofaPython3/SofaTypes",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes/src/SofaPython3/SofaTypes/Binding_Vec.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/SofaTypes",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaTypes"
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<!-- Solvers to allow the animation -->
+<Node name="root" dt="0.01" gravity="0 0 0">
+
+    <RequiredPlugin name="Sofa.Component.Mass"/>           <!-- Needed to use components [UniformMass] -->  
+    <RequiredPlugin name="Sofa.Component.MechanicalLoad"/> <!-- Needed to use components [ConstantForceField] -->  
+    <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->  
+    <RequiredPlugin name="Sofa.Component.LinearSolver.Iterative"/> <!-- Needed to use components [CGLinearSolver] -->  
+    <RequiredPlugin name="Sofa.Component.ODESolver.Backward"/>     <!-- Needed to use components [EulerImplicitSolver] -->  
+
+    <DefaultAnimationLoop computeBoundingBox="false"/>
+
+    <Node name="Particle" bbox="-1 -1 -1 1 1 1">
+        <EulerImplicitSolver />
+        <!-- <EulerExplicitSolver /> -->
+        <CGLinearSolver iterations="200" tolerance="1e-09" threshold="1e-09"/>
+
+        <MechanicalObject template="Rigid3d" name="myParticle" position="0 0 0    0 0 0 1" showObject="1" />
+
+        <UniformMass totalMass="1" />
+        <ConstantForceField totalForce="1 0 0 0 0 0" />
+    </Node>
+</Node>

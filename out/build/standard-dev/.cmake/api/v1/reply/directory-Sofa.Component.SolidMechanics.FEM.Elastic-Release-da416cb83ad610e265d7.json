@@ -1,0 +1,672 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/SolidMechanics/FEM/Elastic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.FEM.Elastic",
+			"exportName" : "Sofa.Component.SolidMechanics.FEM.ElasticTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.SolidMechanics.FEM.Elastic::@b39dcb17f769d67b0f83",
+					"index" : 107
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/CMakeFiles/Export/lib/cmake/Sofa.Component.SolidMechanics.FEM.Elastic/Sofa.Component.SolidMechanics.FEM.ElasticTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.FEM.Elastic",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/SolidMechanics/FEM/Elastic/Sofa.Component.SolidMechanics.FEM.ElasticConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.FEM.Elastic",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.SolidMechanics.FEM.ElasticConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SolidMechanics.FEM.Elastic.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.SolidMechanics.FEM.Elastic::@b39dcb17f769d67b0f83",
+			"targetIndex" : 107,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SolidMechanics.FEM.Elastic.so"
+			],
+			"targetId" : "Sofa.Component.SolidMechanics.FEM.Elastic::@b39dcb17f769d67b0f83",
+			"targetIndex" : 107,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//fwd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//BaseLinearElasticityFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//BaseLinearElasticityFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//BeamFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//BeamFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//FastTetrahedralCorotationalForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//FastTetrahedralCorotationalForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedralFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedralFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedralFEMForceFieldAndMass.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedralFEMForceFieldAndMass.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedronFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedronFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedronFEMForceFieldAndMass.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//HexahedronFEMForceFieldAndMass.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//QuadBendingFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//QuadBendingFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TetrahedralCorotationalFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TetrahedralCorotationalFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TetrahedronFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TetrahedronFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangleFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangleFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangleFEMUtils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangleFEMUtils.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularAnisotropicFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularAnisotropicFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularFEMForceFieldOptim.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.FEM.Elastic/sofa/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/FEM/Elastic/src/sofa/component/solidmechanics/fem/elastic//TriangularFEMForceFieldOptim.inl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/SolidMechanics/FEM/Elastic",
+		"source" : "Sofa/Component/SolidMechanics/FEM/Elastic"
+	}
+}

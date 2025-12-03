@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Topology/Container/Grid/tests",
+		"source" : "Sofa/Component/Topology/Container/Grid/tests"
+	}
+}

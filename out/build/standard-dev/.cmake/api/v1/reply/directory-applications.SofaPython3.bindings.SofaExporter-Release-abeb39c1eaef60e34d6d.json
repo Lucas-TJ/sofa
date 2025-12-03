@@ -1,0 +1,284 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_module",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 102,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 174,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 197,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 205,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 248,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 602,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 13
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/.",
+			"paths" : 
+			[
+				"lib/python3/site-packages/SofaExporter.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaExporter::@4bbced327d45896dba5c",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_STLExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_STLExporter_doc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "include/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_VisualModelOBJExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "headers",
+			"destination" : "include/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_VisualModelOBJExporter_doc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "Bindings.SofaExporterTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings.SofaExporter::@4bbced327d45896dba5c",
+					"index" : 12
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/bindings/SofaExporter/CMakeFiles/Export/lib/cmake/SofaPython3/Bindings.SofaExporterTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/bindings/SofaExporter/Bindings.SofaExporterConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Bindings.SofaExporterConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/python3/site-packages/SofaExporter.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaExporter::@4bbced327d45896dba5c",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaExporter/src/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_STLExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaExporter/src/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_STLExporter_doc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaExporter/src/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_VisualModelOBJExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaExporter/src/SofaExporter",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter/src/SofaExporter/Binding_VisualModelOBJExporter_doc.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/SofaExporter",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaExporter"
+	}
+}

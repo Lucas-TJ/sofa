@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../../../lib/libSofa.LinearAlgebra.pdb"
+  "../../../lib/libSofa.LinearAlgebra.so"
+  "../../../lib/libSofa.LinearAlgebra.so.25.06.99"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BTDMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BTDMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BaseMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BaseMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BaseVector.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BaseVector.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockDiagonalMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockDiagonalMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockFullMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockFullMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockVector.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/BlockVector.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixConstraint.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixConstraint.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixGeneric.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixGeneric.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixMechanical.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/CompressedRowSparseMatrixMechanical.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/EigenVector.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/EigenVector.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/FullMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/FullMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/FullVector.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/FullVector.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/RotationMatrix.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/RotationMatrix.cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/SparseMatrixStorageOrder[EigenSparseMatrix].cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/SparseMatrixStorageOrder[EigenSparseMatrix].cpp.o.d"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/init.cpp.o"
+  "CMakeFiles/Sofa.LinearAlgebra.dir/src/sofa/linearalgebra/init.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Sofa.LinearAlgebra.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

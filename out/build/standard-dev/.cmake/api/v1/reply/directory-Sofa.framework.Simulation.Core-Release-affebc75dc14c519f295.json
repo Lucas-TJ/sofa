@@ -1,0 +1,2304 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/framework/Simulation/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 290,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Core",
+			"exportName" : "Sofa.Simulation.CoreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee",
+					"index" : 169
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/CMakeFiles/Export/lib/cmake/Sofa.Simulation.Core/Sofa.Simulation.CoreTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Core",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Simulation/Core/Sofa.Simulation.CoreConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Core",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Simulation.CoreConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Core.so.25.06.99"
+			],
+			"targetId" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee",
+			"targetIndex" : 169,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Core.so"
+			],
+			"targetId" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee",
+			"targetIndex" : 169,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Simulation.Core/sofa/simulation/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/fwd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/AnimateBeginEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/AnimateEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/AnimateVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/BaseMechanicalVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/BehaviorUpdatePositionVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CleanupVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CollisionAnimationLoop.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CollisionBeginEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CollisionEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CollisionVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Colors.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CpuTask.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/CpuTaskStatus.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/DeactivatedNodeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/DefaultAnimationLoop.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/DefaultVisualManagerLoop.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/DeleteVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ExportDotVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ExportGnuplotVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ExportVisualModelOBJVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/InitVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/IntegrateBeginEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/IntegrateEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MechanicalOperations.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MechanicalVPrintVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MechanicalVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MutationListener.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Node.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Node.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ParallelForEach.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ParallelSparseMatrixProduct.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/PauseEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/PipelineImpl.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/PositionEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/PrintVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/PropagateEventVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/RequiredPlugin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/ResetVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SceneLoaderFactory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Simulation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SimulationLoop.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SolveVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/StateChangeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/TopologyChangeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateBoundingBoxVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateContextVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateInternalDataVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateLinksVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateMappingEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/UpdateMappingVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/VectorOperations.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/VelocityThresholdVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Visitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/VisitorExecuteFunc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/VisualVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/WriteStateVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/XMLPrintVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/BaseSimulationExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/TaskScheduler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/TaskSchedulerFactory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/TaskSchedulerRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/DefaultTaskScheduler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Task.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 75,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/InitTasks.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/Locks.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 77,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MainTaskSchedulerFactory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/MainTaskSchedulerRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 79,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SceneCheck.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SceneCheckRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 81,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/SceneCheckMainRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/WorkerThread.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 83,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/BuildConstraintSystemEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SimulationInitDoneEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 85,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SimulationInitStartEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SimulationInitTexturesDoneEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 87,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SimulationStartEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SimulationStopEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 89,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/events",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/events/SolveConstraintSystemEndEvent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAccFromFVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 91,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAccumulateJacobian.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAccumulateJacobian.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 93,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAccumulateMatrixDeriv.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAddMBK_ToMatrixVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 95,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAddMBKdxVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAddMDxVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 97,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalAddSeparateGravityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalApplyConstraintsVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 99,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalApplyProjectiveConstraint_ToMatrixVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalBeginIntegrationVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 101,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalBuildConstraintMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalComputeContactForceVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 103,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalComputeDfVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalComputeEnergyVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 105,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalComputeForceVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalComputeGeometricStiffness.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 107,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalEndIntegrationVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalGetConstraintInfoVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 109,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalGetConstraintJacobianVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalGetMatrixDimensionVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 111,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalGetMomentumVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalGetNonDiagonalMassesCountVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 113,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalIdentityBlocksInJacobianVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalIntegrateConstraintVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 115,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalIntegrationVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalMultiVectorFromBaseVectorVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 117,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalMultiVectorPeqBaseVectorVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 118,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalMultiVectorToBaseVectorVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 119,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPickParticlesVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 120,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPickParticlesWithTagsVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 121,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalProjectJacobianMatrixVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 122,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalProjectPositionAndVelocityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 123,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalProjectPositionVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 124,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalProjectVelocityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 125,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateDxAndResetForceVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 126,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateDxVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 127,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateOnlyPositionAndResetForceVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 128,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateOnlyPositionAndVelocityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 129,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateOnlyPositionVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 130,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalPropagateOnlyVelocityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 131,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalResetConstraintVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 132,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalResetForceVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 133,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalSetPositionAndVelocityVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 134,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVAllocVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 135,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVAvailVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 136,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVDotVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 137,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVFreeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 138,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVInitVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 139,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVMultiOpVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 140,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVNormVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 141,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVOpVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 142,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVReallocVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 143,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Core/sofa/simulation/mechanicalvisitor",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Core/src/sofa/simulation/mechanicalvisitor/MechanicalVSizeVisitor.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Simulation/Core",
+		"source" : "Sofa/framework/Simulation/Core"
+	}
+}

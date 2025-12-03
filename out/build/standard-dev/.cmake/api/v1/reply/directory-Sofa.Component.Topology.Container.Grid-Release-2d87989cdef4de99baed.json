@@ -1,0 +1,320 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Topology/Container/Grid/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Grid",
+			"exportName" : "Sofa.Component.Topology.Container.GridTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a",
+					"index" : 125
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/CMakeFiles/Export/lib/cmake/Sofa.Component.Topology.Container.Grid/Sofa.Component.Topology.Container.GridTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Grid",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Topology/Container/Grid/Sofa.Component.Topology.Container.GridConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Topology.Container.Grid",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.Topology.Container.GridConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Topology.Container.Grid.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a",
+			"targetIndex" : 125,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Topology.Container.Grid.so"
+			],
+			"targetId" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a",
+			"targetIndex" : 125,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid/polygon_cube_intersection",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/polygon_cube_intersection/polygon_cube_intersection.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid/polygon_cube_intersection",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/polygon_cube_intersection/vec.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/GridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/RegularGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/SparseGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/CylinderGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/SphereGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/SparseGridMultipleTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Topology.Container.Grid/sofa/component/topology/container/grid",
+			"paths" : 
+			[
+				"Sofa/Component/Topology/Container/Grid/src/sofa/component/topology/container/grid/SparseGridRamificationTopology.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Topology/Container/Grid",
+		"source" : "Sofa/Component/Topology/Container/Grid"
+	}
+}

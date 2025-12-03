@@ -1,0 +1,387 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 602,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 715,
+				"parent" : 14
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "etc",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/standard-dev/etc/installedSofa.ini",
+					"to" : "sofa.ini"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/CMakeParseLibraryList.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/SofaMacros.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/SofaMacrosConfigure.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/SofaMacrosPython.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/cmake/SofaMacrosUtils.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"exportName" : "Sofa.ConfigTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Config::@730f02ad748423dea8fd",
+					"index" : 134
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Config/CMakeFiles/Export/lib/cmake/Sofa.Config/Sofa.ConfigTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Config/Sofa.ConfigConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Config",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.ConfigConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Config.so.25.06.99"
+			],
+			"targetId" : "Sofa.Config::@730f02ad748423dea8fd",
+			"targetIndex" : 134,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Config.so"
+			],
+			"targetId" : "Sofa.Config::@730f02ad748423dea8fd",
+			"targetIndex" : 134,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/version.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/url.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa",
+			"paths" : 
+			[
+				"Sofa/framework/Config/src/sofa/Modules.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa/config",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/config/sharedlibrary_defines.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa/config",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/config/build_option_dump_visitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config/sofa/config",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Config/sofa/config/build_option_bbox.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Config",
+			"paths" : 
+			[
+				"Sofa/framework/Config/README.md"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Config",
+		"source" : "Sofa/framework/Config"
+	}
+}

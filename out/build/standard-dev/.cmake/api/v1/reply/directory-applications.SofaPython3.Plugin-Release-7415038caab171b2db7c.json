@@ -1,0 +1,304 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "PluginTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Plugin::@775b7b986a3ad8ebcf61",
+					"index" : 26
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/Plugin/CMakeFiles/Export/lib/cmake/SofaPython3/PluginTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/Plugin/PluginConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/PluginConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofaPython3.so.1.0"
+			],
+			"targetId" : "Plugin::@775b7b986a3ad8ebcf61",
+			"targetIndex" : 26,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofaPython3.so"
+			],
+			"targetId" : "Plugin::@775b7b986a3ad8ebcf61",
+			"targetIndex" : 26,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/./SofaPython3/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/initModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/PythonEnvironment.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/SceneLoaderPY3.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/SpellingSuggestionHelper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/DataCache.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/DataHelper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/LinkPath.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/PythonFactory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src/SofaPython3/Prefab.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/Plugin",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin"
+	}
+}

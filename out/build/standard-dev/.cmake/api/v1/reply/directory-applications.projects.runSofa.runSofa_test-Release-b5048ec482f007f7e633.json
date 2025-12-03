@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "applications/projects/runSofa/runSofa_test",
+		"source" : "applications/projects/runSofa/runSofa_test"
+	}
+}

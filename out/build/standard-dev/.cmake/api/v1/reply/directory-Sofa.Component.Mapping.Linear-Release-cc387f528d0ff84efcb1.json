@@ -1,0 +1,1248 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Mapping/Linear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.Linear",
+			"exportName" : "Sofa.Component.Mapping.LinearTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Mapping.Linear::@ebd6b90e678790961dac",
+					"index" : 84
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/CMakeFiles/Export/lib/cmake/Sofa.Component.Mapping.Linear/Sofa.Component.Mapping.LinearTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.Linear",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Mapping/Linear/Sofa.Component.Mapping.LinearConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.Linear",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.Mapping.LinearConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.Linear.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Mapping.Linear::@ebd6b90e678790961dac",
+			"targetIndex" : 84,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.Linear.so"
+			],
+			"targetId" : "Sofa.Component.Mapping.Linear::@ebd6b90e678790961dac",
+			"targetIndex" : 84,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapper.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperEdgeSetTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperEdgeSetTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperHexahedronSetTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperHexahedronSetTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperMeshTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperMeshTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperQuadSetTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperQuadSetTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperRegularGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperRegularGridTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperSparseGridTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperSparseGridTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTetrahedronSetTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTetrahedronSetTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTopologyContainer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTopologyContainer.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTriangleSetTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/BarycentricMapperTriangleSetTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/TopologyBarycentricMapper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear/BarycentricMappers",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappers/TopologyBarycentricMapper.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappingRigid.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BarycentricMappingRigid.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BeamLinearMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/BeamLinearMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMappingOperation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMulti2Mapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMulti2Mapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMultiMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/CenterOfMassMultiMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/DeformableOnRigidFrameMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/DeformableOnRigidFrameMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/DistanceToPlaneMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/DistanceToPlaneMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/IdentityMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/IdentityMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/IdentityMultiMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/IdentityMultiMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/LinearMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/LineSetSkinningMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/LineSetSkinningMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointMechanicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointMechanicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointMechanicalMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointMechanicalMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointTopologicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/Mesh2PointTopologicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedHexaTopologicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedTetraMechanicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedTetraMechanicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedTetraMechanicalMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedTetraMechanicalMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SimpleTesselatedTetraTopologicalMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SkinningMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SkinningMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SubsetMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SubsetMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SubsetMultiMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/SubsetMultiMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 75,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/TubularMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/TubularMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 77,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.Linear/sofa/component/mapping/linear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/Linear/src/sofa/component/mapping/linear/VoidMapping.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Mapping/Linear",
+		"source" : "Sofa/Component/Mapping/Linear"
+	}
+}

@@ -1,0 +1,272 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/SceneUtility/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SceneUtility",
+			"exportName" : "Sofa.Component.SceneUtilityTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.SceneUtility::@d1a3c3e1f3a1f15cd485",
+					"index" : 102
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/CMakeFiles/Export/lib/cmake/Sofa.Component.SceneUtility/Sofa.Component.SceneUtilityTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SceneUtility",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/SceneUtility/Sofa.Component.SceneUtilityConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SceneUtility",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.SceneUtilityConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SceneUtility.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.SceneUtility::@d1a3c3e1f3a1f15cd485",
+			"targetIndex" : 102,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SceneUtility.so"
+			],
+			"targetId" : "Sofa.Component.SceneUtility::@d1a3c3e1f3a1f15cd485",
+			"targetIndex" : 102,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.SceneUtility/sofa/component/sceneutility/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/AddResourceRepository.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/APIVersion.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/InfoComponent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/MessageHandlerComponent.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/PauseAnimation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SceneUtility/sofa/component/sceneutility",
+			"paths" : 
+			[
+				"Sofa/Component/SceneUtility/src/sofa/component/sceneutility/PauseAnimationOnEvent.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/SceneUtility",
+		"source" : "Sofa/Component/SceneUtility"
+	}
+}

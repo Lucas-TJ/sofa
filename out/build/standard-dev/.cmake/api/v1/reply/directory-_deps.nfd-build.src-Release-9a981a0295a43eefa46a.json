@@ -1,0 +1,97 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/_deps/nfd-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libnfd.so.1.2.1",
+				"lib/libnfd.so.1"
+			],
+			"targetId" : "nfd::@867e02254aa53ecc6986",
+			"targetIndex" : 197,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libnfd.so"
+			],
+			"targetId" : "nfd::@867e02254aa53ecc6986",
+			"targetIndex" : 197,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/nfd-src/src/include/nfd.h",
+				"out/build/standard-dev/_deps/nfd-src/src/include/nfd.hpp",
+				"out/build/standard-dev/_deps/nfd-src/src/include/nfd_sdl2.h",
+				"out/build/standard-dev/_deps/nfd-src/src/include/nfd_glfw3.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "lib/cmake/nfd",
+			"exportName" : "nfd-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nfd::@867e02254aa53ecc6986",
+					"index" : 197
+				}
+			],
+			"paths" : 
+			[
+				"_deps/nfd-build/src/CMakeFiles/Export/lib/cmake/nfd/nfd-config.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/nfd-build/src",
+		"source" : "out/build/standard-dev/_deps/nfd-src/src"
+	}
+}

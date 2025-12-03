@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/GL/Component/Rendering2D/tests",
+		"source" : "Sofa/GL/Component/Rendering2D/tests"
+	}
+}

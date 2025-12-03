@@ -1,0 +1,493 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Sofa.Component.LinearSolver.Direct_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"Sofa/Component/LinearSolver/Direct/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DGTEST_LINKED_AS_SHARED_LIBRARY=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-attributes"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fstack-protector"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "--param=ssp-buffer-size=4"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-D_FORTIFY_SOURCE=2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Testing/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Testing"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Helper/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Helper"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Config/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Type/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Type"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Topology/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Topology"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Geometry/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Geometry"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/DefaultType/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.DefaultType"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/LinearAlgebra/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.LinearAlgebra"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Core/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Graph/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Graph"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Common/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Core/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/SimpleApi/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.SimpleApi"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSolver/Direct/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSolver.Direct"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSolver/Iterative/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSolver.Iterative"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSystem/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSystem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSolver/Ordering/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSolver.Ordering"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/json"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/stb"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/difflib"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Config::@730f02ad748423dea8fd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Type::@95b2bb8b053e82ee6361"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Geometry::@99e8c95a2ceaea5bb399"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Topology::@dca20f37709278ae47aa"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Helper::@fa423ea344d2b6639e62"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.DefaultType::@f752d8a2578d01e3eebe"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Core::@9b941b0b5f919da80dc3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Common::@5068756e761c412414f9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.SimpleApi::@ca8cd8dcfec90851d048"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Testing::@2da6544d092703efcd5c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SofaGTestMain::@c6410f56244a103d5332"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Component.LinearSystem::@eac5c6dfd39afd096f11"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Component.LinearSolver.Ordering::@340d98fc4518cda810f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sofa.Component.LinearSolver.Direct::@a57286140a48989fd250"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Testing"
+	},
+	"id" : "Sofa.Component.LinearSolver.Direct_test::@7b9b77ea116f6776d568",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../../lib/libSofa.Testing.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSolver.Direct.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.SimpleApi.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofaGTestMain.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Graph.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libgtest.so.1.14.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSolver.Iterative.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSystem.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSolver.Ordering.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.DefaultType.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.LinearAlgebra.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Helper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Topology.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Type.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Config.so.25.06.99",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Sofa.Component.LinearSolver.Direct_test",
+	"nameOnDisk" : "Sofa.Component.LinearSolver.Direct_test",
+	"paths" : 
+	{
+		"build" : "Sofa/Component/LinearSolver/Direct/tests",
+		"source" : "Sofa/Component/LinearSolver/Direct/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sofa/Component/LinearSolver/Direct/tests/SparseLDLSolver_test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

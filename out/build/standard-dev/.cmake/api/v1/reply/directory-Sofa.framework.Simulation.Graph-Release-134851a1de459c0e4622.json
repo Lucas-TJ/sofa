@@ -1,0 +1,240 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/framework/Simulation/Graph/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 715,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Graph",
+			"exportName" : "Sofa.Simulation.GraphTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3",
+					"index" : 172
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/CMakeFiles/Export/lib/cmake/Sofa.Simulation.Graph/Sofa.Simulation.GraphTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Graph",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Simulation/Graph/Sofa.Simulation.GraphConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Graph",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Simulation.GraphConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Graph.so.25.06.99"
+			],
+			"targetId" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3",
+			"targetIndex" : 172,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Graph.so"
+			],
+			"targetId" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3",
+			"targetIndex" : 172,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph/sofa/simulation/graph",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Simulation.Graph/sofa/simulation/graph/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph/sofa/simulation/graph",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/src/sofa/simulation/graph/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph/sofa/simulation/graph",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/src/sofa/simulation/graph/initSofaSimulationGraph.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph/sofa/simulation/graph",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/src/sofa/simulation/graph/DAGNode.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph/sofa/simulation/graph",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/src/sofa/simulation/graph/DAGSimulation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Graph",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Graph/README.md"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Simulation/Graph",
+		"source" : "Sofa/framework/Simulation/Graph"
+	}
+}

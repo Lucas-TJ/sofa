@@ -1,0 +1,1034 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/runSofa"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"sofa_auto_set_target_compile_definitions",
+			"sofa_auto_set_target_properties",
+			"target_include_directories",
+			"sofa_auto_set_target_include_directories"
+		],
+		"files" : 
+		[
+			"applications/projects/runSofa/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 602,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 245,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 321,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 419,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 323,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 478,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 481,
+				"parent" : 15
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-attributes"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fstack-protector"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "--param=ssp-buffer-size=4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-D_FORTIFY_SOURCE=2"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "CONFIG_PLUGIN_FILENAME=plugin_list.conf"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "DEFAULT_CONFIG_PLUGIN_FILENAME=plugin_list.conf.default"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SOFA_BUILD_RUNSOFA"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/lucasbureltojo/sofa3/src/applications/projects/runSofa"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Graph/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Graph"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Common/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Core/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Helper/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Helper"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Config/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Config"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Type/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Type"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Topology/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Topology"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Geometry/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Geometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/DefaultType/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.DefaultType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/LinearAlgebra/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.LinearAlgebra"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Core/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Core"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GUI/Common/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI.Common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Setting/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Setting"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Response/Contact/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Response.Contact"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Geometry/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Geometry"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Response/Mapper/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Response.Mapper"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mapping/Linear/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mapping.Linear"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Dynamic/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Dynamic"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Grid/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Grid"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Constant/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Constant"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mapping/NonLinear/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mapping.NonLinear"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/StateContainer/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.StateContainer"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Model/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Model"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Correction/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Correction"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mass/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mass"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSolver/Iterative/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSolver.Iterative"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSystem/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSystem"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/ODESolver/Backward/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.ODESolver.Backward"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Solver/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Solver"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/SolidMechanics/Spring/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.SolidMechanics.Spring"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GUI/Component/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI.Component"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Visual/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Visual"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Projective/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Projective"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Mapping/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Mapping"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/cxxopts-src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GUI/Batch/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI.Batch"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/applications/projects/SceneChecking/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/SceneChecking"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/SceneUtility/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.SceneUtility"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Playback/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Playback"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/json"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/stb"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/difflib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Config::@730f02ad748423dea8fd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Type::@95b2bb8b053e82ee6361"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Geometry::@99e8c95a2ceaea5bb399"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Topology::@dca20f37709278ae47aa"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Helper::@fa423ea344d2b6639e62"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.DefaultType::@f752d8a2578d01e3eebe"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Core::@9b941b0b5f919da80dc3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Simulation.Common::@5068756e761c412414f9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.ODESolver.Backward::@57bda538ecbee00985de"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Sofa.Component.Playback::@8c546147f69e626d3913"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.SceneUtility::@d1a3c3e1f3a1f15cd485"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Topology.Container.Dynamic::@606d730c9e165b0be5b2"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Topology.Mapping::@4da64c76fef4f1229751"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Visual::@32f7f23ba447dcbc99fa"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.LinearSystem::@eac5c6dfd39afd096f11"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Mass::@77a8e2d1ed31b8e4cc70"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Mapping.Linear::@ebd6b90e678790961dac"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Mapping.NonLinear::@66b6e00c1e5c762b5f48"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.StateContainer::@781a730c3ad00a88e255"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.SolidMechanics.Spring::@ddad5483e7c12e1d07dd"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Constraint.Lagrangian::@f61fd49daedd6eec0b28"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Model::@072a8c17960f65e28411"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Correction::@195a0f674b55a08c06b4"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Solver::@96e1ae630d6529b0c2bf"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Constraint.Projective::@38f926b7e32517456138"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Collision.Geometry::@0c753ee6c5a9e557cb0f"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Collision.Response.Mapper::@cd911e9e277b9ae8d13c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Collision.Response.Contact::@9f1b9198c95cbec413d1"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.Component.Setting::@653ed1c7c0c98402117a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.GL::@e277cbc1a12c2aa73a4b"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.GUI.Component::@1b8c933451fdf85c9f69"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Sofa.GUI.Common::@7fb5eb414d9096b9dbd7"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Sofa.GUI.Batch::@82732eb98cdd886ea614"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "SceneChecking::@34ff2a4cc0f2a58c2c8e"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "applications"
+	},
+	"id" : "runSofa::@71900397976064325d08",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../lib/libSofa.Simulation.Graph.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libSofa.GUI.Batch.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../../lib/libSceneChecking.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "../../../lib/libSofa.Component.Playback.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "../../../lib/libSofa.GUI.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.GUI.Component.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Setting.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Visual.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Constraint.Projective.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Topology.Mapping.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.GL.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLEW.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Collision.Response.Contact.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Collision.Response.Mapper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Collision.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.StateContainer.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Mapping.Linear.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Mapping.NonLinear.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Constraint.Lagrangian.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Constraint.Lagrangian.Model.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Constraint.Lagrangian.Correction.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Mass.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Topology.Container.Dynamic.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.LinearSolver.Iterative.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.LinearSystem.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.ODESolver.Backward.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Constraint.Lagrangian.Solver.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.SolidMechanics.Spring.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Topology.Container.Grid.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.Topology.Container.Constant.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Component.SceneUtility.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Simulation.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Simulation.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.DefaultType.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.LinearAlgebra.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Helper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Topology.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Type.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libSofa.Config.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "runSofa",
+	"nameOnDisk" : "runSofa",
+	"paths" : 
+	{
+		"build" : "applications/projects/runSofa",
+		"source" : "applications/projects/runSofa"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "applications/projects/runSofa/runSofa.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "applications/projects/runSofa/resources/docs/runsofa.html",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/applications/projects/runSofa/plugin_list.conf.default",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "applications/projects/runSofa/runSofaValidation.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/projects/runSofa/Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/projects/runSofa/runSofaValidation.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

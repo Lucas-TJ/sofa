@@ -1,0 +1,611 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"applications/plugins/MultiThreading/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 695,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/MultiThreading",
+			"exportName" : "MultiThreadingTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "MultiThreading::@0787a01d25060a2b5e01",
+					"index" : 23
+				}
+			],
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/CMakeFiles/Export/lib/cmake/MultiThreading/MultiThreadingTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/MultiThreading",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/plugins/MultiThreading/MultiThreadingConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/MultiThreading",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/MultiThreadingConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libMultiThreading.so.0.1"
+			],
+			"targetId" : "MultiThreading::@0787a01d25060a2b5e01",
+			"targetIndex" : 23,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libMultiThreading.so"
+			],
+			"targetId" : "MultiThreading::@0787a01d25060a2b5e01",
+			"targetIndex" : 23,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/MultiThreading/MultiThreading/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/initMultiThreading.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/DataExchange.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/DataExchange.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/MeanComputation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/MeanComputation.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/animationloop",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/animationloop/AnimationLoopParallelScheduler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/collision/detection/algorithm",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/collision/detection/algorithm/ParallelBVHNarrowPhase.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/collision/detection/algorithm",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/collision/detection/algorithm/ParallelBruteForceBroadPhase.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/linearsolver/iterative/ParallelCGLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/linearsolver/iterative/ParallelCGLinearSolver.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/linearsolver/iterative/ParallelCompressedRowSparseMatrixMechanical.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/mapping/linear",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/mapping/linear/BeamLinearMapping_mt.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/mapping/linear",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/mapping/linear/BeamLinearMapping_mt.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/mapping/linear",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/mapping/linear/BeamLinearMapping_tasks.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/fem/elastic/ParallelHexahedronFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/fem/elastic/ParallelHexahedronFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/fem/elastic/ParallelTetrahedronFEMForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/fem/elastic",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/fem/elastic/ParallelTetrahedronFEMForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelStiffSpringForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelStiffSpringForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelSpringForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelSpringForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelMeshSpringForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/MultiThreading/component/solidmechanics/spring",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/component/solidmechanics/spring/ParallelMeshSpringForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/SceneCheckMultithreading.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/ParallelImplementationsRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/MultiThreading",
+			"paths" : 
+			[
+				"applications/plugins/MultiThreading/src/MultiThreading/TaskSchedulerUser.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "resources",
+			"destination" : "share/sofa/examples/MultiThreading",
+			"paths" : 
+			[
+				{
+					"from" : "applications/plugins/MultiThreading/examples",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/plugins/MultiThreading",
+		"source" : "applications/plugins/MultiThreading"
+	}
+}

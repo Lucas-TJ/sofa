@@ -1,0 +1,205 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_install_git_infos"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 257,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 258,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 264,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 270,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1003,
+				"parent" : 10
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "lib/cmake/Modules",
+			"paths" : 
+			[
+				"cmake/Modules/FindEigen3.cmake",
+				"cmake/Modules/macdeployqt.cmake",
+				"cmake/Modules/windeployqt.cmake",
+				"cmake/Modules/FindTinyXML2.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : ".",
+			"paths" : 
+			[
+				"README.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "applications",
+			"destination" : ".",
+			"paths" : 
+			[
+				"CHANGELOG.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "applications",
+			"destination" : ".",
+			"paths" : 
+			[
+				"LICENSE-LGPL.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "applications",
+			"destination" : ".",
+			"paths" : 
+			[
+				"Authors.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "resources",
+			"destination" : "share/sofa",
+			"paths" : 
+			[
+				{
+					"from" : "share",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "resources",
+			"destination" : "share/sofa/examples",
+			"paths" : 
+			[
+				{
+					"from" : "examples",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "resources",
+			"destination" : "plugins",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/standard-dev/plugins",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "resources",
+			"destination" : "collections",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/standard-dev/collections",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "resources",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

@@ -1,0 +1,110 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp
+[ 11%] Creating directories for 'Regression'
+[ 22%] Performing download step (git clone) for 'Regression'
+Cloning into 'Regression'...
+warning: redirecting to https://github.com/sofa-framework/Regression.git/
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 33%] Performing update step for 'Regression'
+warning: redirecting to https://github.com/sofa-framework/Regression.git/
+HEAD is now at b52fd6b Merge pull request #78 from bakpaul/25_03_add_way_to_correctly_handle_references_that_are_in_Regression
+[ 44%] No patch step for 'Regression'
+[ 55%] No configure step for 'Regression'
+[ 66%] No build step for 'Regression'
+[ 77%] No install step for 'Regression'
+[ 88%] No test step for 'Regression'
+[100%] Completed 'Regression'
+[100%] Built target Regression
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp
+[ 11%] Performing update step for 'Regression'
+warning: redirecting to https://github.com/sofa-framework/Regression.git/
+HEAD is now at b52fd6b Merge pull request #78 from bakpaul/25_03_add_way_to_correctly_handle_references_that_are_in_Regression
+[ 22%] No patch step for 'Regression'
+[ 33%] No configure step for 'Regression'
+[ 44%] No build step for 'Regression'
+[ 55%] No install step for 'Regression'
+[ 66%] No test step for 'Regression'
+[ 77%] Completed 'Regression'
+[100%] Built target Regression
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp
+[ 11%] Performing update step for 'Regression'
+warning: redirecting to https://github.com/sofa-framework/Regression.git/
+From https://www.github.com/sofa-framework/Regression
+ + 9f3faad...cecb358 refs/pull/69/merge -> origin/pr/69/merge  (forced update)
+ * [new ref]         refs/pull/79/head  -> origin/pr/79/head
+ * [new ref]         refs/pull/80/head  -> origin/pr/80/head
+ * [new ref]         refs/pull/81/head  -> origin/pr/81/head
+ * [new ref]         refs/pull/82/head  -> origin/pr/82/head
+ * [new ref]         refs/pull/82/merge -> origin/pr/82/merge
+ * [new ref]         refs/pull/83/head  -> origin/pr/83/head
+ * [new ref]         refs/pull/83/merge -> origin/pr/83/merge
+ * [new branch]      25_04_update_python_script -> origin/25_04_update_python_script
+   b52fd6b..b2e763a  master             -> origin/master
+ * [new branch]      v25.06             -> origin/v25.06
+ * [new tag]         release-v25.06     -> release-v25.06
+Previous HEAD position was b52fd6b Merge pull request #78 from bakpaul/25_03_add_way_to_correctly_handle_references_that_are_in_Regression
+HEAD is now at b2e763a [References] Add files for regression tests in the SofaDistanceGrid plugin (#81)
+[ 22%] No patch step for 'Regression'
+[ 33%] No configure step for 'Regression'
+[ 44%] No build step for 'Regression'
+[ 55%] No install step for 'Regression'
+[ 66%] No test step for 'Regression'
+[ 77%] Completed 'Regression'
+[100%] Built target Regression

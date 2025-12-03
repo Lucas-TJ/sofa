@@ -1,0 +1,400 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/LinearSolver/Iterative/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.LinearSolver.Iterative",
+			"exportName" : "Sofa.Component.LinearSolver.IterativeTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a",
+					"index" : 78
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/CMakeFiles/Export/lib/cmake/Sofa.Component.LinearSolver.Iterative/Sofa.Component.LinearSolver.IterativeTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.LinearSolver.Iterative",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/LinearSolver/Iterative/Sofa.Component.LinearSolver.IterativeConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.LinearSolver.Iterative",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.LinearSolver.IterativeConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.LinearSolver.Iterative.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a",
+			"targetIndex" : 78,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.LinearSolver.Iterative.so"
+			],
+			"targetId" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a",
+			"targetIndex" : 78,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/CGLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/CGLinearSolver.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/GraphScatteredTypes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/LinearSystemData[GraphScattered].h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MatrixFreeSystem[GraphScattered].h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MatrixLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MatrixLinearSolver.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MatrixLinearSystem[GraphScattered].h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MinResLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/MinResLinearSolver.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/ShewchukPCGLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/ShewchukPCGLinearSolver.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/PCGLinearSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.LinearSolver.Iterative/sofa/component/linearsolver/iterative",
+			"paths" : 
+			[
+				"Sofa/Component/LinearSolver/Iterative/src/sofa/component/linearsolver/iterative/PCGLinearSolver.inl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/LinearSolver/Iterative",
+		"source" : "Sofa/Component/LinearSolver/Iterative"
+	}
+}

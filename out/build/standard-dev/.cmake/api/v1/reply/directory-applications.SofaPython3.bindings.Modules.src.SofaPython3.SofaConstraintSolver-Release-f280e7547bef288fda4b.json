@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_module"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/src/SofaPython3/SofaConstraintSolver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/Sofa",
+			"paths" : 
+			[
+				"lib/python3/site-packages/Sofa/SofaConstraintSolver.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.Modules.SofaConstraintSolver::@89d653eed521c2607b90",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaConstraintSolver",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/src/SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaConstraintSolver",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/src/SofaPython3/SofaConstraintSolver/Binding_ConstraintSolver_doc.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/Modules/src/SofaPython3/SofaConstraintSolver",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/src/SofaPython3/SofaConstraintSolver"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ nfd-populate
+# Source files and their labels
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate-complete.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-build.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-configure.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-download.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-install.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-mkdir.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-patch.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-test.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-update.rule

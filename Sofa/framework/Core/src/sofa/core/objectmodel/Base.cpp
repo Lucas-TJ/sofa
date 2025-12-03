@@ -37,10 +37,15 @@ using sofa::helper::logging::Message ;
 #include <sofa/helper/DiffLib.h>
 using sofa::helper::getClosestMatch;
 
+#include <sofa/helper/system/SetDirectory.h>
+
 #include <map>
 #include <typeinfo>
 #include <cstring>
 #include <sstream>
+#include <fstream>
+#include <iomanip>
+#include <string>
 
 #define ERROR_LOG_SIZE 100
 
@@ -678,6 +683,23 @@ void Base::setInstanciationSourceFilePos(const int lineco)
 int Base::getInstanciationSourceFilePos() const
 {
     return m_instanciationSourceFilePos;
+}
+
+void Base::exportToJson() const
+{
+    std::stringstream ss;
+    ss << std::setw(6) << std::setfill('0') << 1;
+    std::string filename = "Test";
+    const std::string jsonFilename =
+            sofa::helper::system::SetDirectory::GetFileNameWithoutExtension(filename.c_str()) + "_" + ss.str() + ".json";
+    msg_info("Base") << "Writing " << jsonFilename;
+    std::ofstream out(jsonFilename);
+    out << 1 << "\n";
+    out << 2 << "\n";
+    out << 2 << "\n";
+    out << 2 << "\n";
+    out << 2 << "\n";
+    out.close();
 }
 
 } // namespace sofa::core::objectmodel

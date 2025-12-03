@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "applications/plugins/SceneCreator/SceneCreator_test",
+		"source" : "applications/plugins/SceneCreator/SceneCreator_test"
+	}
+}

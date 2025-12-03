@@ -1,0 +1,14 @@
+# Target labels
+ Regression
+# Source files and their labels
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/CMakeFiles/Regression
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/CMakeFiles/Regression.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/CMakeFiles/Regression-complete.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-build.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-configure.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-download.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-install.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-mkdir.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-patch.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-test.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/Regression-temp/Regression-prefix/src/Regression-stamp/Regression-update.rule

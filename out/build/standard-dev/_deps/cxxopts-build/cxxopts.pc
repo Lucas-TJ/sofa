@@ -1,0 +1,7 @@
+prefix=/home/lucasbureltojo/sofa3/src/out/build/standard-dev/install
+includedir=${prefix}/include
+
+Name: cxxopts
+Description: 
+Version: 3.1.1
+Cflags: -I${includedir}

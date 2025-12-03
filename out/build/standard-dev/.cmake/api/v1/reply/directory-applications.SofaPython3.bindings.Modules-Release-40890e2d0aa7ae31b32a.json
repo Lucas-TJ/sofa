@@ -1,0 +1,122 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "Bindings.ModulesTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings.Modules.SofaBaseTopology::@fe16d50202dcc034498d",
+					"index" : 0
+				},
+				{
+					"id" : "Bindings.Modules.SofaDeformable::@62f7949502fc2deb0c2e",
+					"index" : 2
+				},
+				{
+					"id" : "Bindings.Modules.SofaLinearSolver::@8917095ff9d1ef823e48",
+					"index" : 4
+				},
+				{
+					"id" : "Bindings.Modules.SofaLinearSystem::@44b1462183c55490e19b",
+					"index" : 5
+				},
+				{
+					"id" : "Bindings.Modules.SofaConstraintSolver::@89d653eed521c2607b90",
+					"index" : 1
+				},
+				{
+					"id" : "Bindings.Modules.SofaGL::@e293e42574abe23c12ef",
+					"index" : 3
+				},
+				{
+					"id" : "Bindings.Modules::@bdc6d55d733e85b048c7",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/bindings/Modules/CMakeFiles/Export/lib/cmake/SofaPython3/Bindings.ModulesTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/bindings/Modules/Bindings.ModulesConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Bindings.ModulesConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/Modules",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules"
+	}
+}

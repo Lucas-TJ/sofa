@@ -1,0 +1,512 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/IO/Mesh/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.IO.Mesh",
+			"exportName" : "Sofa.Component.IO.MeshTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.IO.Mesh::@4ff7cdf2d65a4750d642",
+					"index" : 73
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/CMakeFiles/Export/lib/cmake/Sofa.Component.IO.Mesh/Sofa.Component.IO.MeshTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.IO.Mesh",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/IO/Mesh/Sofa.Component.IO.MeshConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.IO.Mesh",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.IO.MeshConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.IO.Mesh.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.IO.Mesh::@4ff7cdf2d65a4750d642",
+			"targetIndex" : 73,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.IO.Mesh.so"
+			],
+			"targetId" : "Sofa.Component.IO.Mesh::@4ff7cdf2d65a4750d642",
+			"targetIndex" : 73,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.IO.Mesh/sofa/component/io/mesh/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/BaseVTKReader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/BaseVTKReader.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshOBJLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshVTKLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshGmshLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/VisualModelOBJExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/VTKExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/GIDMeshLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/GridMeshCreator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshOffLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshSTLLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshTrianLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshXspLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/OffSequenceLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/SphereLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/StringMeshCreator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/VoxelGridLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/BlenderExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/BlenderExporter.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/MeshExporter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.IO.Mesh/sofa/component/io/mesh",
+			"paths" : 
+			[
+				"Sofa/Component/IO/Mesh/src/sofa/component/io/mesh/STLExporter.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/IO/Mesh",
+		"source" : "Sofa/Component/IO/Mesh"
+	}
+}

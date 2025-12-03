@@ -1,0 +1,176 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Mapping/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping",
+			"exportName" : "Sofa.Component.MappingTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Mapping::@09d25ef2f94ed2da8f1b",
+					"index" : 83
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/CMakeFiles/Export/lib/cmake/Sofa.Component.Mapping/Sofa.Component.MappingTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Mapping/Sofa.Component.MappingConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.MappingConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Mapping::@09d25ef2f94ed2da8f1b",
+			"targetIndex" : 83,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.so"
+			],
+			"targetId" : "Sofa.Component.Mapping::@09d25ef2f94ed2da8f1b",
+			"targetIndex" : 83,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping/sofa/component/mapping",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Mapping/sofa/component/mapping/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping/sofa/component/mapping",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/src/sofa/component/mapping/init.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Mapping",
+		"source" : "Sofa/Component/Mapping"
+	}
+}

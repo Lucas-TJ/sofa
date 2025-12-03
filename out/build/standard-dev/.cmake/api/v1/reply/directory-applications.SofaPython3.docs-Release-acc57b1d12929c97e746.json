@@ -1,0 +1,43 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/docs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "resources",
+			"destination" : "share/SofaPython3/documentation",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/docs/sphinx/source/index.rst"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/docs",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/docs"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/LinearAlgebra/test",
+		"source" : "Sofa/framework/LinearAlgebra/test"
+	}
+}

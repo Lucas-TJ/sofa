@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/IO/Mesh/tests",
+		"source" : "Sofa/Component/IO/Mesh/tests"
+	}
+}

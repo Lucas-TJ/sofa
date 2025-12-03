@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_module"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/src/SofaPython3/Sofa/Simulation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/Sofa",
+			"paths" : 
+			[
+				"lib/python3/site-packages/Sofa/Simulation.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.Sofa.Simulation::@c49ebf304681107d85e7",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Sofa/Simulation",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/src/SofaPython3/Sofa/Simulation/Submodule_Simulation_doc.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/Sofa/src/SofaPython3/Sofa/Simulation",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/src/SofaPython3/Sofa/Simulation"
+	}
+}

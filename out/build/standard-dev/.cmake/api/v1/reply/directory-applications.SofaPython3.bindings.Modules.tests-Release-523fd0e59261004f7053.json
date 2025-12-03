@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Modules.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Modules.Tests.d/SofaDeformable"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Modules.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Modules.Tests.d/SofaLinearSolver"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Modules.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Modules.Tests.d/SofaConstraintSolver"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Bindings.Modules.Tests"
+			],
+			"targetId" : "Bindings.Modules.Tests::@badb231ae41fbcc904ee",
+			"targetIndex" : 6,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/Modules/tests",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Modules/tests"
+	}
+}

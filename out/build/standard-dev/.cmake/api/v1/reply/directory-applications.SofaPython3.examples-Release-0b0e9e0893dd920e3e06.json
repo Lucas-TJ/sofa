@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "resources",
+			"destination" : "share/SofaPython3/examples",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_compliance_matrix.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_mass_matrix.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_matrix.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_stiffness_matrix.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/additional-examples/ControllerScene.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/advanced_timer.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/basic-addGUI.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/basic.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/CMakeLists.txt",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyController.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyDataEngine.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyForceField.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/example-forcefield.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/example-scriptcontroller.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/keyEvents.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/liver.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/liver-scriptcontroller.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/loadXMLfromPython.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/pointSetTopologyModifier.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/ReadTheDocs_Example.py",
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/springForceField.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/examples",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples"
+	}
+}

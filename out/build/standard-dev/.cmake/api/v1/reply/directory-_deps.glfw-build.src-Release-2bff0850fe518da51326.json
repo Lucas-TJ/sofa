@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/_deps/glfw-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 362,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libglfw.so.3.4",
+				"lib/libglfw.so.3"
+			],
+			"targetId" : "glfw::@fa9f4482d3a2b070f206",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libglfw.so"
+			],
+			"targetId" : "glfw::@fa9f4482d3a2b070f206",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/glfw-build/src",
+		"source" : "out/build/standard-dev/_deps/glfw-src/src"
+	}
+}

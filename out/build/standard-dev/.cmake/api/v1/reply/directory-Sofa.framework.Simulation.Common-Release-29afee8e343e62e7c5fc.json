@@ -1,0 +1,441 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_install_libraries",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/framework/Simulation/Common/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 909,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 715,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"/usr/lib/x86_64-linux-gnu/libtinyxml2.so.9",
+				"/usr/lib/x86_64-linux-gnu/libtinyxml2.so.9.0.0"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Common",
+			"exportName" : "Sofa.Simulation.CommonTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Simulation.Common::@5068756e761c412414f9",
+					"index" : 167
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/CMakeFiles/Export/lib/cmake/Sofa.Simulation.Common/Sofa.Simulation.CommonTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Common",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Simulation/Common/Sofa.Simulation.CommonConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Simulation.Common",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Simulation.CommonConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Common.so.25.06.99"
+			],
+			"targetId" : "Sofa.Simulation.Common::@5068756e761c412414f9",
+			"targetIndex" : 167,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Simulation.Common.so"
+			],
+			"targetId" : "Sofa.Simulation.Common::@5068756e761c412414f9",
+			"targetIndex" : 167,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Simulation.Common/sofa/simulation/common/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/initSofaSimulationCommon.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/FindByTypeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/SceneLoaderPHP.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/SceneLoaderXML.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/TransformationVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/AttributeElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/BaseElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/BaseMultiMappingElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/DataElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/Element.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/Element.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/NodeElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/ObjectElement.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common/sofa/simulation/common/xml",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/src/sofa/simulation/common/xml/XML.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Simulation.Common",
+			"paths" : 
+			[
+				"Sofa/framework/Simulation/Common/README.md"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Simulation/Common",
+		"source" : "Sofa/framework/Simulation/Common"
+	}
+}

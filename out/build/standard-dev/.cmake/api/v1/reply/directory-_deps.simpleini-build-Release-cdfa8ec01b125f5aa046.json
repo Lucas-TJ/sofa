@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/_deps/simpleini-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "include/SimpleIni",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/simpleini-src/SimpleIni.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "share/cmake/SimpleIni",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/simpleini-build/SimpleIniConfig.cmake",
+				"out/build/standard-dev/_deps/simpleini-build/SimpleIniConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "applications",
+			"destination" : "share/cmake/SimpleIni",
+			"exportName" : "SimpleIniTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SimpleIni::@d6ad9d15e898071f721f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/simpleini-build/CMakeFiles/Export/share/cmake/SimpleIni/SimpleIniTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/simpleini-build",
+		"source" : "out/build/standard-dev/_deps/simpleini-src"
+	}
+}

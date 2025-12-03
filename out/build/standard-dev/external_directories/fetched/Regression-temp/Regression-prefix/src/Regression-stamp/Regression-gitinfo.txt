@@ -1,0 +1,3 @@
+repository='https://www.github.com/sofa-framework/Regression.git'
+module=''
+tag='origin'

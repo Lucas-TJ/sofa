@@ -1,0 +1,136 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaPython3-temp
+[ 11%] Creating directories for 'SofaPython3'
+[ 22%] Performing download step (git clone) for 'SofaPython3'
+Cloning into 'SofaPython3'...
+warning: redirecting to https://github.com/sofa-framework/SofaPython3.git/
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+[ 33%] Performing update step for 'SofaPython3'
+warning: redirecting to https://github.com/sofa-framework/SofaPython3.git/
+HEAD is now at 441731d2 Fix indentation (#491)
+[ 44%] No patch step for 'SofaPython3'
+[ 55%] No configure step for 'SofaPython3'
+[ 66%] No build step for 'SofaPython3'
+[ 77%] No install step for 'SofaPython3'
+[ 88%] No test step for 'SofaPython3'
+[100%] Completed 'SofaPython3'
+[100%] Built target SofaPython3
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaPython3-temp
+[ 11%] Performing update step for 'SofaPython3'
+warning: redirecting to https://github.com/sofa-framework/SofaPython3.git/
+HEAD is now at 441731d2 Fix indentation (#491)
+[ 22%] No patch step for 'SofaPython3'
+[ 33%] No configure step for 'SofaPython3'
+[ 44%] No build step for 'SofaPython3'
+[ 55%] No install step for 'SofaPython3'
+[ 66%] No test step for 'SofaPython3'
+[ 77%] Completed 'SofaPython3'
+[100%] Built target SofaPython3
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaPython3-temp
+[ 11%] Performing update step for 'SofaPython3'
+warning: redirecting to https://github.com/sofa-framework/SofaPython3.git/
+From https://www.github.com/sofa-framework/SofaPython3
+ + 7147a0f6...d65418da refs/pull/204/merge         -> origin/pr/204/merge  (forced update)
+ + 7ff356bf...a3f9166b refs/pull/275/merge         -> origin/pr/275/merge  (forced update)
+ + 10907443...e3ca4360 refs/pull/399/merge         -> origin/pr/399/merge  (forced update)
+ + 21143926...029c23de refs/pull/413/merge         -> origin/pr/413/merge  (forced update)
+ + cb356486...b5773ab7 refs/pull/492/merge         -> origin/pr/492/merge  (forced update)
+ * [new ref]           refs/pull/493/head          -> origin/pr/493/head
+ * [new ref]           refs/pull/493/merge         -> origin/pr/493/merge
+ * [new ref]           refs/pull/494/head          -> origin/pr/494/head
+ * [new ref]           refs/pull/496/head          -> origin/pr/496/head
+ * [new ref]           refs/pull/496/merge         -> origin/pr/496/merge
+ * [new ref]           refs/pull/497/head          -> origin/pr/497/head
+ * [new ref]           refs/pull/498/head          -> origin/pr/498/head
+ * [new ref]           refs/pull/499/head          -> origin/pr/499/head
+ * [new ref]           refs/pull/500/head          -> origin/pr/500/head
+ * [new ref]           refs/pull/500/merge         -> origin/pr/500/merge
+ * [new ref]           refs/pull/501/head          -> origin/pr/501/head
+ * [new ref]           refs/pull/502/head          -> origin/pr/502/head
+ * [new ref]           refs/pull/503/head          -> origin/pr/503/head
+ * [new ref]           refs/pull/503/merge         -> origin/pr/503/merge
+ * [new ref]           refs/pull/504/head          -> origin/pr/504/head
+ * [new ref]           refs/pull/505/head          -> origin/pr/505/head
+ * [new ref]           refs/pull/505/merge         -> origin/pr/505/merge
+ * [new ref]           refs/pull/506/head          -> origin/pr/506/head
+ * [new ref]           refs/pull/506/merge         -> origin/pr/506/merge
+ * [new ref]           refs/pull/507/head          -> origin/pr/507/head
+ * [new ref]           refs/pull/507/merge         -> origin/pr/507/merge
+ * [new ref]           refs/pull/508/head          -> origin/pr/508/head
+ * [new ref]           refs/pull/508/merge         -> origin/pr/508/merge
+ * [new branch]        25_04_work_on_new_prefabs   -> origin/25_04_work_on_new_prefabs
+   441731d2..72ff3875  master                      -> origin/master
+ * [new branch]        pr-adds-unified-add         -> origin/pr-adds-unified-add
+ * [new branch]        v25.06                      -> origin/v25.06
+ * [new branch]        v25.06_update_workflow      -> origin/v25.06_update_workflow
+ t [tag update]        nightly-release-master      -> nightly-release-master
+ * [new tag]           release-25_04_work_on_new_prefabs -> release-25_04_work_on_new_prefabs
+ t [tag update]        release-master              -> release-master
+ * [new tag]           release-pr-adds-unified-add -> release-pr-adds-unified-add
+ * [new tag]           release-v25.06              -> release-v25.06
+Previous HEAD position was 441731d2 Fix indentation (#491)
+HEAD is now at 72ff3875 Add a function to get the kinetic and potential energy of a node from a python script (#504)
+[ 22%] No patch step for 'SofaPython3'
+[ 33%] No configure step for 'SofaPython3'
+[ 44%] No build step for 'SofaPython3'
+[ 55%] No install step for 'SofaPython3'
+[ 66%] No test step for 'SofaPython3'
+[ 77%] Completed 'SofaPython3'
+[100%] Built target SofaPython3

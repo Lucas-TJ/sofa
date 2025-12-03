@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/GL/Component/Engine/tests",
+		"source" : "Sofa/GL/Component/Engine/tests"
+	}
+}

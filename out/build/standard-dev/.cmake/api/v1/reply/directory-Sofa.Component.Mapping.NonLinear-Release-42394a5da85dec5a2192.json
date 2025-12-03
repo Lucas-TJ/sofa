@@ -1,0 +1,480 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Mapping/NonLinear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.NonLinear",
+			"exportName" : "Sofa.Component.Mapping.NonLinearTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Mapping.NonLinear::@66b6e00c1e5c762b5f48",
+					"index" : 87
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/CMakeFiles/Export/lib/cmake/Sofa.Component.Mapping.NonLinear/Sofa.Component.Mapping.NonLinearTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.NonLinear",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Mapping/NonLinear/Sofa.Component.Mapping.NonLinearConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Mapping.NonLinear",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.Mapping.NonLinearConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.NonLinear.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Mapping.NonLinear::@66b6e00c1e5c762b5f48",
+			"targetIndex" : 87,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Mapping.NonLinear.so"
+			],
+			"targetId" : "Sofa.Component.Mapping.NonLinear::@66b6e00c1e5c762b5f48",
+			"targetIndex" : 87,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/AreaMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/AreaMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/BaseNonLinearMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/BaseNonLinearMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceFromTargetMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceFromTargetMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceMultiMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/DistanceMultiMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/NonLinearMappingData.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/RigidMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/RigidMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/SquareDistanceMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/SquareDistanceMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/SquareMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/SquareMapping.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/VolumeMapping.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Mapping.NonLinear/sofa/component/mapping/nonlinear",
+			"paths" : 
+			[
+				"Sofa/Component/Mapping/NonLinear/src/sofa/component/mapping/nonlinear/VolumeMapping.inl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Mapping/NonLinear",
+		"source" : "Sofa/Component/Mapping/NonLinear"
+	}
+}

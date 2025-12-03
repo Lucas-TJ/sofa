@@ -1,0 +1,1872 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/framework/Helper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 279,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Helper",
+			"exportName" : "Sofa.HelperTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Helper::@fa423ea344d2b6639e62",
+					"index" : 159
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Helper/CMakeFiles/Export/lib/cmake/Sofa.Helper/Sofa.HelperTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Helper",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Helper/Sofa.HelperConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Helper",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.HelperConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Helper.so.25.06.99"
+			],
+			"targetId" : "Sofa.Helper::@fa423ea344d2b6639e62",
+			"targetIndex" : 159,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Helper.so"
+			],
+			"targetId" : "Sofa.Helper::@fa423ea344d2b6639e62",
+			"targetIndex" : 159,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Helper/sofa/helper/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/AdvancedTimer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/BackTrace.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/cast.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/ColorMap.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/ComponentChange.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/DiffLib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/Factory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/Factory.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/TypeInfo.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/FnDispatcher.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/FnDispatcher.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/GenerateRigid.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/IndexOpenMP.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/LCPcalc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/MarchingCubeUtility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/MatEigen.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/MemoryManager.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/NameDecoder.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/narrow_cast.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/OptionsGroup.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/OwnershipSPtr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/Polynomial_LD.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/Polynomial_LD.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/RandomGenerator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/SimpleTimer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/ScopedAdvancedTimer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/SelectableItem.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/SortedPermutation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/StringUtils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/TagFactory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/TriangleOctree.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/Utils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/decompose.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/decompose.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/deque.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/hash.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/integer_id.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/ReadAccessor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/ReadAccessorFixedArray.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/ReadAccessorVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/WriteAccessor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/WriteAccessorFixedArray.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/WriteAccessorVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/accessor",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/accessor/WriteOnlyAccessor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/BaseFileAccess.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/FileAccess.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/File.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/Image.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/ImageDDS.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/ImageRAW.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/XspLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/Mesh.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/MeshOBJ.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/MeshGmsh.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/MeshTopologyLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/SphereLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/STBImage.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/io",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/io/TriangleLoader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/kdTree.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/kdTree.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/list.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/map.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/map_ptr_stable_compare.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 75,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/pair.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/random.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 77,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/rmath.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/set.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 79,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/fwd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/DynamicLibrary.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 81,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/FileSystem.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/Locale.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 83,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/PipeProcess.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/PluginManager.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 85,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/SetDirectory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/console.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 87,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/console_internal.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system/thread",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/thread/CTime.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 89,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system/thread",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/thread/CircularQueue.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system/thread",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/thread/CircularQueue.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 91,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system/thread",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/thread/debug.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system/thread",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/thread/thread_specific_ptr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 93,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/FileMonitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/system",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/system/FileRepository.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 95,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/Messaging.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/Message.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 97,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/ComponentInfo.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/FileInfo.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 99,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/MessageDispatcher.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/MessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 101,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/ConsoleMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/SilentMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 103,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/FileMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/CountingMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 105,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/LoggingMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/RoutingMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 107,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/MessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/MessageFormatter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 109,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/ClangMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/ClangStyleMessageFormatter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 111,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/DefaultStyleMessageFormatter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/logging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/logging/ExceptionMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 113,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/messaging",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/messaging/FileMessage.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/visual",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/visual/Transformation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 115,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/visual",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/visual/DrawTool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "headers",
+			"destination" : "include/Sofa.Helper/sofa/helper/visual",
+			"paths" : 
+			[
+				"Sofa/framework/Helper/src/sofa/helper/visual/Trackball.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Helper",
+		"source" : "Sofa/framework/Helper"
+	}
+}

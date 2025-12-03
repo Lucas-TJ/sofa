@@ -1,0 +1,109 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Sofa.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Sofa.Tests.d/Core"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Sofa.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Sofa.Tests.d/Helper"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Sofa.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Sofa.Tests.d/Simulation"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "applications",
+			"destination" : "bin/Bindings.Sofa.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.Sofa.Tests.d/Types"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Bindings.Sofa.Tests"
+			],
+			"targetId" : "Bindings.Sofa.Tests::@01b99f0d1ad8573ad9b5",
+			"targetIndex" : 10,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/Sofa/tests",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/tests"
+	}
+}

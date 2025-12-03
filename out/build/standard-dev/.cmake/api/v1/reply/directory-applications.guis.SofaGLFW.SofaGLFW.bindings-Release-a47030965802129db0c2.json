@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_module"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/lib/cmake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaGLFW/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/.",
+			"paths" : 
+			[
+				"lib/python3/site-packages/SofaGLFW.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings_SofaGLFW::@29e8de3343cbfa7aa58b",
+			"targetIndex" : 18,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/guis/SofaGLFW/SofaGLFW/bindings",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaGLFW/bindings"
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "BindingsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings.Sofa.Tests::@01b99f0d1ad8573ad9b5",
+					"index" : 10
+				},
+				{
+					"id" : "Bindings.SofaRuntime.Tests::@0401a3c40b27abb4b40f",
+					"index" : 15
+				},
+				{
+					"id" : "Bindings.SofaTypes.Tests::@cc775cfca966d184cc4d",
+					"index" : 17
+				},
+				{
+					"id" : "Bindings.Modules.Tests::@badb231ae41fbcc904ee",
+					"index" : 6
+				},
+				{
+					"id" : "Bindings::@15e6173d27a19bea2952",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/bindings/CMakeFiles/Export/lib/cmake/SofaPython3/BindingsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/bindings/BindingsConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/BindingsConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings"
+	}
+}

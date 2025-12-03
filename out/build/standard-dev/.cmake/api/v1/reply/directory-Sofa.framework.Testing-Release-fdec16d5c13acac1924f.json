@@ -1,0 +1,400 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Testing/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 602,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 602,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 16
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "include/extlibs/GTest/",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/googletest-src/googletest/include/gtest"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/GTest",
+			"exportName" : "GTestTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"index" : 195
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Testing/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/GTest",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Testing/GTestConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "headers",
+			"destination" : "lib/cmake/GTest",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/GTestConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgtest.so.1.14.0"
+			],
+			"targetId" : "gtest::@1ea2dfc0605fe3ab2a3f",
+			"targetIndex" : 195,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgtest.so"
+			],
+			"targetId" : "gtest::@1ea2dfc0605fe3ab2a3f",
+			"targetIndex" : 195,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Testing",
+			"exportName" : "Sofa.TestingTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Testing::@2da6544d092703efcd5c",
+					"index" : 175
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/Testing/CMakeFiles/Export/lib/cmake/Sofa.Testing/Sofa.TestingTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Testing",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/Testing/Sofa.TestingConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Testing",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.TestingConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Testing.so.25.06.99"
+			],
+			"targetId" : "Sofa.Testing::@2da6544d092703efcd5c",
+			"targetIndex" : 175,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Testing.so"
+			],
+			"targetId" : "Sofa.Testing::@2da6544d092703efcd5c",
+			"targetIndex" : 175,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Testing/sofa/testing/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/initSofa.Testing.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/BaseTest.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/LinearCongruentialRandomGenerator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/NumericTest.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/ScopedPlugin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/TestMessageHandler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.Testing/sofa/testing",
+			"paths" : 
+			[
+				"Sofa/framework/Testing/src/sofa/testing/BaseSimulationTest.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/Testing",
+		"source" : "Sofa/framework/Testing"
+	}
+}

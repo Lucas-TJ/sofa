@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/CMakeFiles/iconfontcppheaders-populate"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/CMakeFiles/iconfontcppheaders-populate.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/CMakeFiles/iconfontcppheaders-populate-complete.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-build.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-configure.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-download.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-install.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-patch.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-test.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-subbuild/iconfontcppheaders-populate-prefix/src/iconfontcppheaders-populate-stamp/iconfontcppheaders-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"iconfontcppheaders-populate"
+		],
+		"name" : "iconfontcppheaders-populate"
+	}
+}

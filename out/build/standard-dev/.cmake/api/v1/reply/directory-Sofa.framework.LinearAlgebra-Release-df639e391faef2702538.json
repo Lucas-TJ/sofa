@@ -1,0 +1,720 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/framework/LinearAlgebra/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.LinearAlgebra",
+			"exportName" : "Sofa.LinearAlgebraTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294",
+					"index" : 162
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/CMakeFiles/Export/lib/cmake/Sofa.LinearAlgebra/Sofa.LinearAlgebraTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.LinearAlgebra",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/framework/LinearAlgebra/Sofa.LinearAlgebraConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.LinearAlgebra",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.LinearAlgebraConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.LinearAlgebra.so.25.06.99"
+			],
+			"targetId" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294",
+			"targetIndex" : 162,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.LinearAlgebra.so"
+			],
+			"targetId" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294",
+			"targetIndex" : 162,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.LinearAlgebra/sofa/linearalgebra/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/fwd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BTDMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BTDMatrix.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BaseMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BaseVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockFullMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockFullMatrix.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockDiagonalMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockDiagonalMatrix.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/BlockVector.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/CompressedRowSparseMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/CompressedRowSparseMatrixConstraint.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/CompressedRowSparseMatrixConstraintEigenUtils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/CompressedRowSparseMatrixGeneric.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/CompressedRowSparseMatrixMechanical.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/DiagonalMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/DiagonalSystemSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/EigenBaseSparseMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/EigenSparseMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/EigenVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/FullMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/FullMatrix.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/FullVector.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/FullVector.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/MatrixExpr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/RotationMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/SparseMatrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/SparseMatrixProduct.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/SparseMatrixProduct.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/SparseMatrixStorageOrder.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/SparseMatrixStorageOrder[EigenSparseMatrix].h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/TriangularSystemSolver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "headers",
+			"destination" : "include/Sofa.LinearAlgebra/sofa/linearalgebra",
+			"paths" : 
+			[
+				"Sofa/framework/LinearAlgebra/src/sofa/linearalgebra/matrix_bloc_traits.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/framework/LinearAlgebra",
+		"source" : "Sofa/framework/LinearAlgebra"
+	}
+}

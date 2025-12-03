@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/CMakeFiles/nfd-populate-complete.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-build.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-configure.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-download.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-install.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-patch.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-test.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/nfd-subbuild/nfd-populate-prefix/src/nfd-populate-stamp/nfd-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nfd-populate"
+		],
+		"name" : "nfd-populate"
+	}
+}

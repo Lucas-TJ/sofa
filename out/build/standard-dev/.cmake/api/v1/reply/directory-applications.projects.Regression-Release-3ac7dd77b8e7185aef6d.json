@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "applications/projects/Regression",
+		"source" : "out/build/standard-dev/external_directories/fetched/Regression"
+	}
+}

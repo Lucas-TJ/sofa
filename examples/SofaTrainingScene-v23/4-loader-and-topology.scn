@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+<!-- Loader and topology -->
+<Node name="root" dt="0.01" gravity="0 0 0">
+
+    <RequiredPlugin name="Sofa.Component.Mass"/>           <!-- Needed to use components [UniformMass] -->  
+    <RequiredPlugin name="Sofa.Component.MechanicalLoad"/> <!-- Needed to use components [ConstantForceField] -->  
+    <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->  
+    <RequiredPlugin name="Sofa.Component.LinearSolver.Iterative"/> <!-- Needed to use components [CGLinearSolver] -->  
+    <RequiredPlugin name="Sofa.Component.ODESolver.Backward"/>     <!-- Needed to use components [EulerImplicitSolver] -->  
+    <RequiredPlugin name="Sofa.Component.IO.Mesh"/>        <!-- Needed to use components [MeshGmshLoader] --> 
+    <RequiredPlugin name="Sofa.Component.Topology.Container.Dynamic"/> <!-- Needed to use components [PointSetTopologyContainer] -->  
+    
+    <DefaultAnimationLoop computeBoundingBox="false"/>
+
+    <MeshGmshLoader name="meshLoaderCoarse" filename="mesh/liver.msh" />
+    <!-- <TransformEngine name="transformer" input_position="@meshLoaderCoarse.position" translation="0 2 0" rotation="0 0 0" /> -->
+    <!-- position="@../transformer.output_position" -->
+
+    <Node name="Liver">
+
+        <EulerImplicitSolver />
+        <CGLinearSolver iterations="200" tolerance="1e-09" threshold="1e-09"/>
+
+        <PointSetTopologyContainer name="topo" src="@../meshLoaderCoarse" />
+
+        <MechanicalObject template="Rigid3d" name="MechanicalModel" showObject="1"/>
+
+        <UniformMass totalMass="1" />
+        <ConstantForceField totalForce="1 0 0 0 0 0" />
+
+    </Node>
+</Node>

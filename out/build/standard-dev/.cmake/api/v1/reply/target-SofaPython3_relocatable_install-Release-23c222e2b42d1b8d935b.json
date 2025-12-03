@@ -1,0 +1,85 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"sofa_set_project_install_relocatable",
+			"sofa_create_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 207,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 797,
+				"parent" : 2
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "relocatable_install"
+	},
+	"id" : "SofaPython3_relocatable_install::@4946ad5e158b2dfd230b",
+	"name" : "SofaPython3_relocatable_install",
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "out/build/standard-dev/applications/SofaPython3/CMakeFiles/SofaPython3_relocatable_install",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/standard-dev/applications/SofaPython3/CMakeFiles/SofaPython3_relocatable_install.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

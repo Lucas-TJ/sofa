@@ -1,0 +1,179 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/Regression/Regression_test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Regression_test",
+			"exportName" : "Regression_testTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Regression_test::@61cfd42aab22836ae577",
+					"index" : 27
+				}
+			],
+			"paths" : 
+			[
+				"applications/projects/Regression/Regression_test/CMakeFiles/Export/lib/cmake/Regression_test/Regression_testTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Regression_test",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/projects/Regression/Regression_test/Regression_testConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Regression_test",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Regression_testConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Regression_test-25.06.99",
+				"bin/Regression_test"
+			],
+			"targetId" : "Regression_test::@61cfd42aab22836ae577",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Regression_test/Regression_test/..",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/Regression/Regression_test/RegressionSceneList.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Regression_test/Regression_test/..",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/Regression/Regression_test/RegressionSceneList.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Regression_test/Regression_test/..",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/Regression/Regression_test/Regression_test.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/projects/Regression/Regression_test",
+		"source" : "out/build/standard-dev/external_directories/fetched/Regression/Regression_test"
+	}
+}

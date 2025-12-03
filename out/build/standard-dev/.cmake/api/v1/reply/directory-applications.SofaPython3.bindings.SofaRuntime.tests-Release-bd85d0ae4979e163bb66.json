@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaRuntime/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "bin/Bindings.SofaRuntime.Tests.d",
+			"paths" : 
+			[
+				"out/build/standard-dev/bin/Bindings.SofaRuntime.Tests.d/SofaRuntime"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/Bindings.SofaRuntime.Tests"
+			],
+			"targetId" : "Bindings.SofaRuntime.Tests::@0401a3c40b27abb4b40f",
+			"targetIndex" : 15,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/SofaRuntime/tests",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaRuntime/tests"
+	}
+}

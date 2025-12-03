@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"applications/projects/runSofa/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 602,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 685,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "applications",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/plugin_list.conf.default"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "applications",
+			"destination" : "etc",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/standard-dev/etc/installedrunSofa.ini",
+					"to" : "runSofa.ini"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "resources",
+			"destination" : "share/sofa/gui/runSofa",
+			"paths" : 
+			[
+				{
+					"from" : "applications/projects/runSofa/resources",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "applications",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/runSofa-25.06.99",
+				"bin/runSofa"
+			],
+			"targetId" : "runSofa::@71900397976064325d08",
+			"targetIndex" : 198,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "headers",
+			"destination" : "include/Sofa.GUI/runSofa",
+			"paths" : 
+			[
+				"applications/projects/runSofa/runSofaValidation.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/projects/runSofa",
+		"source" : "applications/projects/runSofa"
+	}
+}

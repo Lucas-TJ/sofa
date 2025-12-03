@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Collision/Detection/Algorithm/tests",
+		"source" : "Sofa/Component/Collision/Detection/Algorithm/tests"
+	}
+}

@@ -1,0 +1,220 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"SP3_add_python_module",
+			"sofa_create_package",
+			"sofa_create_component_in_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/CMake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui/CMakeLists.txt",
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 353,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 102,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 174,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 197,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 205,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 248,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 602,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 685,
+				"parent" : 11
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "lib/python3/site-packages/Sofa",
+			"paths" : 
+			[
+				"lib/python3/site-packages/Sofa/Gui.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaGui::@5642efc435537e358503",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui/src/SofaPython3/SofaGui/Binding_BaseGui.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/SofaGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui/src/SofaPython3/SofaGui/Binding_GUIManager.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"exportName" : "Bindings.SofaGuiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings.SofaGui::@5642efc435537e358503",
+					"index" : 13
+				}
+			],
+			"paths" : 
+			[
+				"applications/SofaPython3/bindings/SofaGui/CMakeFiles/Export/lib/cmake/SofaPython3/Bindings.SofaGuiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/SofaPython3/bindings/SofaGui/Bindings.SofaGuiConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaPython3",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Bindings.SofaGuiConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/python3/site-packages/Sofa/Gui.cpython-310-x86_64-linux-gnu.so"
+			],
+			"targetId" : "Bindings.SofaGui::@5642efc435537e358503",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaGui/src/SofaPython3/SofaGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui/src/SofaPython3/SofaGui/Binding_BaseGui.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/SofaPython3/Bindings.SofaGui/src/SofaPython3/SofaGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui/src/SofaPython3/SofaGui/Binding_GUIManager.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/bindings/SofaGui",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/SofaGui"
+	}
+}

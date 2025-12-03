@@ -1,0 +1,352 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/Playback/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Playback",
+			"exportName" : "Sofa.Component.PlaybackTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.Playback::@8c546147f69e626d3913",
+					"index" : 100
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/Playback/CMakeFiles/Export/lib/cmake/Sofa.Component.Playback/Sofa.Component.PlaybackTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Playback",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/Playback/Sofa.Component.PlaybackConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.Playback",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.PlaybackConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Playback.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.Playback::@8c546147f69e626d3913",
+			"targetIndex" : 100,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.Playback.so"
+			],
+			"targetId" : "Sofa.Component.Playback::@8c546147f69e626d3913",
+			"targetIndex" : 100,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.Playback/sofa/component/playback/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/CompareState.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/CompareTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/InputEventReader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/ReadState.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/ReadState.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/ReadTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/ReadTopology.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/WriteState.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/WriteState.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/WriteTopology.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.Playback/sofa/component/playback",
+			"paths" : 
+			[
+				"Sofa/Component/Playback/src/sofa/component/playback/WriteTopology.inl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/Playback",
+		"source" : "Sofa/Component/Playback"
+	}
+}

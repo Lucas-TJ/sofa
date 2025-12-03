@@ -1,0 +1,172 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"out/build/standard-dev/external_directories/fetched/SofaPython3/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "Examples::@6a179a9a2e8efb346d11",
+	"name" : "Examples",
+	"paths" : 
+	{
+		"build" : "applications/SofaPython3/examples",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_compliance_matrix.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_mass_matrix.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_matrix.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/access_stiffness_matrix.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/additional-examples/ControllerScene.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/advanced_timer.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/basic-addGUI.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/basic.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyController.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyDataEngine.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/emptyForceField.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/example-forcefield.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/example-scriptcontroller.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/keyEvents.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/liver.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/liver-scriptcontroller.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/loadXMLfromPython.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/pointSetTopologyModifier.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/ReadTheDocs_Example.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaPython3/examples/springForceField.py",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,320 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"applications/projects/SceneChecking/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneChecking",
+			"exportName" : "SceneCheckingTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SceneChecking::@34ff2a4cc0f2a58c2c8e",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/CMakeFiles/Export/lib/cmake/SceneChecking/SceneCheckingTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneChecking",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/projects/SceneChecking/SceneCheckingConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneChecking",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/SceneCheckingConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSceneChecking.so.25.06.99"
+			],
+			"targetId" : "SceneChecking::@34ff2a4cc0f2a58c2c8e",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSceneChecking.so"
+			],
+			"targetId" : "SceneChecking::@34ff2a4cc0f2a58c2c8e",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/SceneChecking/SceneChecking/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckAPIChange.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckCollisionResponse.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckDeprecatedComponents.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckDuplicatedName.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckEmptyNodeName.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckMissingRequiredPlugin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckUsingAlias.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckerListener.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/SceneChecking",
+			"paths" : 
+			[
+				"applications/projects/SceneChecking/src/SceneChecking/SceneCheckerVisitor.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/projects/SceneChecking",
+		"source" : "applications/projects/SceneChecking"
+	}
+}

@@ -360,6 +360,54 @@ public:
 
     ///@}
 
+public:
+
+    // std::vector<DataTypes> snapshotContainer;
+
+    void saveSnapshot()
+    {
+        // snapshotContainer.clear();
+        //save all data
+        // for (auto* data : m_vecData)
+        // {
+        //     // save raw data or its link to another data?
+        //     // data->parentData;
+        //     // auto element = convertData(data); accessor ?
+        //     // snapshotContainer.push_back() or insert()
+        // }
+        
+        //save links? m_vecLink
+        // for (auto* link : m_vecLink)
+        // {
+            
+        // }
+        // save attributes
+        // doSaveSnapshot();
+        exportToJson();
+    }
+    
+    void loadSnapshot()
+    {
+        //load data
+        // for (auto* data : m_vecData)
+        // {
+        //     // load data
+        // }
+
+        // doLoadSnapshot();
+    }
+
+
+    void exportToJson() const;
+    
+private:
+    // save other things than data
+    // virtual void doSaveSnapshot();
+
+    // virtual void doLoadSnapshot();
+
+protected:
+    std::string filename;
 
 protected:
     /// List of fields (Data instances)

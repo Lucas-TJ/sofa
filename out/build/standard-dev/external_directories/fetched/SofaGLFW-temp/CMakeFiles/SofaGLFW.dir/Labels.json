@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW-complete.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-build.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-configure.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-download.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-install.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-mkdir.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-patch.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-test.rule"
+		},
+		{
+			"file" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SofaGLFW"
+		],
+		"name" : "SofaGLFW"
+	}
+}

@@ -1,0 +1,240 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"Sofa/Component/SolidMechanics/TensorMass/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.TensorMass",
+			"exportName" : "Sofa.Component.SolidMechanics.TensorMassTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Sofa.Component.SolidMechanics.TensorMass::@3b7382331e6793abd68b",
+					"index" : 114
+				}
+			],
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/CMakeFiles/Export/lib/cmake/Sofa.Component.SolidMechanics.TensorMass/Sofa.Component.SolidMechanics.TensorMassTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.TensorMass",
+			"paths" : 
+			[
+				"out/build/standard-dev/Sofa/Component/SolidMechanics/TensorMass/Sofa.Component.SolidMechanics.TensorMassConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/Sofa.Component.SolidMechanics.TensorMass",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/Sofa.Component.SolidMechanics.TensorMassConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SolidMechanics.TensorMass.so.25.06.99"
+			],
+			"targetId" : "Sofa.Component.SolidMechanics.TensorMass::@3b7382331e6793abd68b",
+			"targetIndex" : 114,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofa.Component.SolidMechanics.TensorMass.so"
+			],
+			"targetId" : "Sofa.Component.SolidMechanics.TensorMass::@3b7382331e6793abd68b",
+			"targetIndex" : 114,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/src/sofa/component/solidmechanics/tensormass/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/src/sofa/component/solidmechanics/tensormass/TetrahedralTensorMassForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/src/sofa/component/solidmechanics/tensormass/TetrahedralTensorMassForceField.inl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/src/sofa/component/solidmechanics/tensormass/TriangularTensorMassForceField.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/Sofa.Component.SolidMechanics.TensorMass/sofa/component/solidmechanics/tensormass",
+			"paths" : 
+			[
+				"Sofa/Component/SolidMechanics/TensorMass/src/sofa/component/solidmechanics/tensormass/TriangularTensorMassForceField.inl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Sofa/Component/SolidMechanics/TensorMass",
+		"source" : "Sofa/Component/SolidMechanics/TensorMass"
+	}
+}

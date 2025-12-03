@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<!-- Rigid object in a scene -->
+<Node name="root" dt="0.01" gravity="0 0 0">
+
+    <!-- When using components from SOFA modules, plugins, you can import them -->
+    <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->  
+
+    <DefaultAnimationLoop />
+    
+    <Node name="Particle" bbox="-1 -1 -1 1 1 1">
+                                                       <!-- Rigid DOFS = x y z  + quaternion -->
+        <MechanicalObject template="Rigid3d" name="myParticle" position="0 0 0    0 0 0 1" showObject="1" />
+
+    </Node>
+
+</Node>

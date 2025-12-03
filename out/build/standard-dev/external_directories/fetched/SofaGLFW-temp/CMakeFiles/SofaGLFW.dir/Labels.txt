@@ -1,0 +1,14 @@
+# Target labels
+ SofaGLFW
+# Source files and their labels
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/CMakeFiles/SofaGLFW-complete.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-build.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-configure.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-download.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-install.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-mkdir.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-patch.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-test.rule
+/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW-temp/SofaGLFW-prefix/src/SofaGLFW-stamp/SofaGLFW-update.rule

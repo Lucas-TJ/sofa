@@ -1,0 +1,224 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"applications/plugins/SceneCreator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneCreator",
+			"exportName" : "SceneCreatorTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SceneCreator::@8d5acda4fd255485b8e0",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"applications/plugins/SceneCreator/CMakeFiles/Export/lib/cmake/SceneCreator/SceneCreatorTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneCreator",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/plugins/SceneCreator/SceneCreatorConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SceneCreator",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/SceneCreatorConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSceneCreator.so.0.1"
+			],
+			"targetId" : "SceneCreator::@8d5acda4fd255485b8e0",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSceneCreator.so"
+			],
+			"targetId" : "SceneCreator::@8d5acda4fd255485b8e0",
+			"targetIndex" : 31,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/SceneCreator",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/SceneCreator/SceneCreator/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/SceneCreator",
+			"paths" : 
+			[
+				"applications/plugins/SceneCreator/src/SceneCreator/GetAssembledSizeVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/SceneCreator",
+			"paths" : 
+			[
+				"applications/plugins/SceneCreator/src/SceneCreator/GetVectorVisitor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/SceneCreator",
+			"paths" : 
+			[
+				"applications/plugins/SceneCreator/src/SceneCreator/SceneCreator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/SceneCreator",
+			"paths" : 
+			[
+				"applications/plugins/SceneCreator/src/SceneCreator/SceneUtils.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/plugins/SceneCreator",
+		"source" : "applications/plugins/SceneCreator"
+	}
+}

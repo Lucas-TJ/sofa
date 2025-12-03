@@ -1,0 +1,1075 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/python3/site-packages/SofaImGui.cpython-310-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python_add_library",
+			"python_add_library",
+			"SP3_add_python_module",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.22/Modules/FindPython/Support.cmake",
+			"/usr/share/cmake-3.22/Modules/FindPython.cmake",
+			"out/build/standard-dev/lib/cmake/SofaPython3Tools.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 580,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3330,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 333,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 126,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 175,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3353,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 172,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 160,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Dregister="
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-flto"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-fat-lto-objects"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-attributes"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstack-protector"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "--param=ssp-buffer-size=4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-D_FORTIFY_SOURCE=2"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-W"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-padded"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Bindings_SofaImGui_EXPORTS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "IMGUI_API=SOFAIMGUI_API"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "IMGUI_USER_CONFIG=<SofaImGui/config.h>"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/bindings/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaPython3/Plugin/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Plugin"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Graph/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Graph"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Common/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Core/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Helper/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Helper"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Config/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Config"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Type/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Type"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Topology/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Topology"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Geometry/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Geometry"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/DefaultType/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.DefaultType"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/LinearAlgebra/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.LinearAlgebra"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/Simulation/Core/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Simulation.Core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaPython3/bindings/Sofa/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/framework/SimpleApi/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.SimpleApi"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Response/Contact/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Response.Contact"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Geometry/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Geometry"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Collision/Response/Mapper/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Collision.Response.Mapper"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mapping/Linear/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mapping.Linear"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Dynamic/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Dynamic"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Grid/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Grid"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Container/Constant/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Container.Constant"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mapping/NonLinear/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mapping.NonLinear"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/StateContainer/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.StateContainer"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Model/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Model"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Correction/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Correction"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Mass/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Mass"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSolver/Iterative/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSolver.Iterative"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/LinearSystem/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.LinearSystem"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/ODESolver/Backward/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.ODESolver.Backward"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Lagrangian/Solver/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Lagrangian.Solver"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/SolidMechanics/Spring/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.SolidMechanics.Spring"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Visual/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Visual"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/resources"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/implot-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/iconfontcppheaders-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/simpleini-src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/SofaImGui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/glfw-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaGLFW/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/SofaGLFW"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GUI/Common/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI.Common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Setting/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Setting"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GUI/Component/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GUI.Component"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Constraint/Projective/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Constraint.Projective"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/Component/Topology/Mapping/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.Component.Topology.Mapping"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/_deps/cxxopts-src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Rendering3D/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Rendering3D"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/Sofa/GL/Component/Rendering2D/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/include/Sofa.GL.Component.Rendering2D"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/json"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/stb"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/lucasbureltojo/sofa3/src/extlibs/difflib"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Config::@730f02ad748423dea8fd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Type::@95b2bb8b053e82ee6361"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Geometry::@99e8c95a2ceaea5bb399"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Topology::@dca20f37709278ae47aa"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Helper::@fa423ea344d2b6639e62"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.LinearAlgebra::@b74af384ca0ba38fd294"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.DefaultType::@f752d8a2578d01e3eebe"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Core::@9b941b0b5f919da80dc3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Simulation.Core::@cf7461809d07fca1a9ee"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Simulation.Common::@5068756e761c412414f9"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Simulation.Graph::@28c79a289d6a843877e3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.SimpleApi::@ca8cd8dcfec90851d048"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.ODESolver.Backward::@57bda538ecbee00985de"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Topology.Container.Constant::@21acf7e366e8f73599db"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Topology.Container.Dynamic::@606d730c9e165b0be5b2"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Topology.Container.Grid::@f7646434590bbd48729a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Topology.Mapping::@4da64c76fef4f1229751"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Visual::@32f7f23ba447dcbc99fa"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.LinearSystem::@eac5c6dfd39afd096f11"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.LinearSolver.Iterative::@cdd5880d24159d5e2c5a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Mass::@77a8e2d1ed31b8e4cc70"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Mapping.Linear::@ebd6b90e678790961dac"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Mapping.NonLinear::@66b6e00c1e5c762b5f48"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.StateContainer::@781a730c3ad00a88e255"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.SolidMechanics.Spring::@ddad5483e7c12e1d07dd"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Constraint.Lagrangian::@f61fd49daedd6eec0b28"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Model::@072a8c17960f65e28411"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Correction::@195a0f674b55a08c06b4"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Constraint.Lagrangian.Solver::@96e1ae630d6529b0c2bf"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Constraint.Projective::@38f926b7e32517456138"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Collision.Geometry::@0c753ee6c5a9e557cb0f"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Collision.Response.Mapper::@cd911e9e277b9ae8d13c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Collision.Response.Contact::@9f1b9198c95cbec413d1"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.Component.Setting::@653ed1c7c0c98402117a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.GL::@e277cbc1a12c2aa73a4b"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.GL.Component.Rendering2D::@6b461ae0cc0af41f128d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.GL.Component.Rendering3D::@9e7b83644b199b0c4e73"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.GUI.Component::@1b8c933451fdf85c9f69"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Sofa.GUI.Common::@7fb5eb414d9096b9dbd7"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Plugin::@775b7b986a3ad8ebcf61"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Bindings.Sofa.Core::@67c940a2c2ec61db9568"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Bindings.Sofa.Helper::@590a3b63e349fd308ac1"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Bindings.Sofa.Simulation::@c49ebf304681107d85e7"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Bindings.Sofa.Types::@827ce71ae8febb0d7bb6"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "SofaGLFW::@560c8effa699924e3ee5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "glfw::@fa9f4482d3a2b070f206"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "SofaImGui::@7068ed3663e2ad9179a3"
+		}
+	],
+	"id" : "Bindings_SofaImGui::@811199958fb17d1bda09",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib/python3/site-packages/."
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib/python3/site-packages/."
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/lucasbureltojo/sofa3/src/out/build/standard-dev/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-flto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib:/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib/python3/site-packages/Sofa:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../../../../lib/libSofaImGui.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/python3/site-packages/Sofa/Helper.cpython-310-x86_64-linux-gnu.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/python3/site-packages/Sofa/Simulation.cpython-310-x86_64-linux-gnu.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/python3/site-packages/Sofa/Types.cpython-310-x86_64-linux-gnu.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/python3/site-packages/Sofa/Core.cpython-310-x86_64-linux-gnu.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../../../../lib/libSofaPython3.so.1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.SimpleApi.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofaGLFW.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Graph.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libglfw.so.3.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GUI.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Common.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Collision.Response.Contact.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Constraint.Lagrangian.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Constraint.Lagrangian.Correction.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Mass.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSolver.Iterative.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.LinearSystem.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.ODESolver.Backward.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Constraint.Lagrangian.Solver.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GUI.Component.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Collision.Response.Mapper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Collision.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Mapping.Linear.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Mapping.NonLinear.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.SolidMechanics.Spring.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.StateContainer.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Constraint.Lagrangian.Model.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Constraint.Projective.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Mapping.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Container.Dynamic.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Rendering3D.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.Component.Rendering2D.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Visual.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Container.Grid.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Topology.Container.Constant.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.GL.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLEW.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Component.Setting.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Simulation.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Core.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.DefaultType.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.LinearAlgebra.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Helper.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Topology.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Geometry.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Type.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libSofa.Config.so.25.06.99",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/lucasbureltojo/sofa3/src/out/build/standard-dev/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Bindings_SofaImGui",
+	"nameOnDisk" : "SofaImGui.cpython-310-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : "applications/guis/SofaGLFW/SofaImGui/bindings",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/bindings"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/bindings/src/Module_SofaImGui.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

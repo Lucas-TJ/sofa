@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<!-- Adding physics to the object -->
+<Node name="root" dt="0.01" gravity="0 0 0">
+
+    <RequiredPlugin name="Sofa.Component.Mass"/>           <!-- Needed to use components [UniformMass] -->  
+    <RequiredPlugin name="Sofa.Component.MechanicalLoad"/> <!-- Needed to use components [ConstantForceField] -->  
+    <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->  
+
+    <DefaultAnimationLoop />
+    
+    <Node name="Particle" bbox="-1 -1 -1 1 1 1">
+        <MechanicalObject template="Rigid3d" name="myParticle" position="0 0 0    0 0 0 1"  showObject="1" />
+
+        <UniformMass totalMass="1" />
+        <ConstantForceField totalForce="1 0 0 0 0 0" /> 
+    </Node>
+</Node>

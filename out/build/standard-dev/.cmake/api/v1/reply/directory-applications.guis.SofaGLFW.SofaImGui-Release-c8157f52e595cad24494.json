@@ -1,0 +1,804 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sofa_create_package",
+			"sofa_create_package_with_targets",
+			"sofa_install_targets_in_package",
+			"sofa_add_targets_to_package"
+		],
+		"files" : 
+		[
+			"Sofa/framework/Config/cmake/SofaMacrosInstall.cmake",
+			"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 680,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 685,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaImGui",
+			"exportName" : "SofaImGuiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Bindings_SofaImGui::@811199958fb17d1bda09",
+					"index" : 19
+				},
+				{
+					"id" : "SofaImGui::@7068ed3663e2ad9179a3",
+					"index" : 184
+				}
+			],
+			"paths" : 
+			[
+				"applications/guis/SofaGLFW/SofaImGui/CMakeFiles/Export/lib/cmake/SofaImGui/SofaImGuiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/applications/guis/SofaGLFW/SofaImGui/SofaImGuiConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "lib/cmake/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/lib/cmake/SofaImGuiConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofaImGui.so.25.06.99"
+			],
+			"targetId" : "SofaImGui::@7068ed3663e2ad9179a3",
+			"targetIndex" : 184,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSofaImGui.so"
+			],
+			"targetId" : "SofaImGui::@7068ed3663e2ad9179a3",
+			"targetIndex" : 184,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/include/SofaImGui/SofaImGui/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/init.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/ImGuiDataWidget.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/ImGuiGUI.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/ImGuiGUIEngine.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/ObjectColor.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/UIStrings.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/widgets",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/widgets/DisplayFlagsWidget.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/widgets",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/widgets/LinearSpringWidget.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/widgets",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/widgets/MaterialWidget.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/widgets",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/widgets/ScalarWidget.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Performances.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Log.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/MouseManager.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Profiler.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/SceneGraph.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/DisplayFlags.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Plugins.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Components.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/Settings.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/ViewPort.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "headers",
+			"destination" : "include/SofaImGui",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/AppIniFile.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/windows",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/windows/WindowState.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/guis",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/guis/BaseAdditionalGUI.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/guis",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/src/SofaImGui/guis/AdditionalGUIRegistry.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src/backends",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/backends/imgui_impl_glfw.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src/backends",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/backends/imgui_impl_opengl3.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src/backends",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/backends/imgui_impl_opengl2.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/imconfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/imgui.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/imgui_internal.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/imgui-src/misc/cpp",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/imgui-src/misc/cpp/imgui_stdlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/implot-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/implot-src/implot.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/implot-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/implot-src/implot_internal.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/iconfontcppheaders-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/iconfontcppheaders-src/IconsFontAwesome4.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/iconfontcppheaders-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/iconfontcppheaders-src/IconsFontAwesome6.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/_deps/simpleini-src",
+			"paths" : 
+			[
+				"out/build/standard-dev/_deps/simpleini-src/SimpleIni.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/resources",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/resources/fa-regular-400.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/resources",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/resources/fa-solid-900.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/resources",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/resources/Roboto-Medium.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "headers",
+			"destination" : "include/SofaImGui/resources",
+			"paths" : 
+			[
+				"out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui/resources/Style.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "applications/guis/SofaGLFW/SofaImGui",
+		"source" : "out/build/standard-dev/external_directories/fetched/SofaGLFW/SofaImGui"
+	}
+}
