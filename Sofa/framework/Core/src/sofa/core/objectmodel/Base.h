@@ -383,7 +383,7 @@ public :
         Snapshot_impl = impl;
     }
 
-    void saveSnapshot(BaseSnapshot& SnapshotImpl);
+    void saveSnapshot(BaseSnapshot& type, int i);
 
 private :
     BaseSnapshot* Snapshot_impl; 
