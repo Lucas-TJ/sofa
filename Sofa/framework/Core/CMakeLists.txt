@@ -127,6 +127,7 @@ set(HEADER_FILES
     ${SRC_ROOT}/behavior/SingleStateAccessor.h
     ${SRC_ROOT}/behavior/SingleStateAccessor.inl
     ${SRC_ROOT}/behavior/StateAccessor.h
+    ${SRC_ROOT}/behavior/TopologyAccessor.h
     ${SRC_ROOT}/behavior/fwd.h
     ${SRC_ROOT}/collision/BroadPhaseDetection.h
     ${SRC_ROOT}/collision/CollisionAlgorithm.h
@@ -213,6 +214,7 @@ set(HEADER_FILES
     ${SRC_ROOT}/visual/BaseVisualStyle.h
     ${SRC_ROOT}/visual/Data[DisplayFlags].h
     ${SRC_ROOT}/visual/DisplayFlags.h
+    ${SRC_ROOT}/visual/DrawMesh.h
     ${SRC_ROOT}/visual/FlagTreeItem.h
     ${SRC_ROOT}/visual/Shader.h
     ${SRC_ROOT}/visual/Tristate.h
@@ -287,6 +289,7 @@ set(SOURCE_FILES
     ${SRC_ROOT}/behavior/ProjectiveConstraintSet.cpp
     ${SRC_ROOT}/behavior/SingleMatrixAccessor.cpp
     ${SRC_ROOT}/behavior/SingleStateAccessor.cpp
+    ${SRC_ROOT}/behavior/TopologyAccessor.cpp
     ${SRC_ROOT}/behavior/fwd.cpp
     ${SRC_ROOT}/collision/BroadPhaseDetection.cpp
     ${SRC_ROOT}/collision/Contact.cpp
@@ -348,6 +351,7 @@ set(SOURCE_FILES
     ${SRC_ROOT}/topology/TopologySubsetIndices.cpp
     ${SRC_ROOT}/visual/Data[DisplayFlags].cpp
     ${SRC_ROOT}/visual/DisplayFlags.cpp
+    ${SRC_ROOT}/visual/DrawMesh.cpp
     ${SRC_ROOT}/visual/FlagTreeItem.cpp
     ${SRC_ROOT}/visual/Shader.cpp
     ${SRC_ROOT}/visual/VisualLoop.cpp
