@@ -1,0 +1,64 @@
+/******************************************************************************
+*                 SOFA, Simulation Open-Framework Architecture                *
+*                    (c) 2006 INRIA, USTL, UJF, CNRS, MGH                     *
+*                                                                             *
+* This program is free software; you can redistribute it and/or modify it     *
+* under the terms of the GNU Lesser General Public License as published by    *
+* the Free Software Foundation; either version 2.1 of the License, or (at     *
+* your option) any later version.                                             *
+*                                                                             *
+* This program is distributed in the hope that it will be useful, but WITHOUT *
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or       *
+* FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License *
+* for more details.                                                           *
+*                                                                             *
+* You should have received a copy of the GNU Lesser General Public License    *
+* along with this program. If not, see <http://www.gnu.org/licenses/>.        *
+*******************************************************************************
+* Authors: The SOFA Team and external contributors (see Authors.txt)          *
+*                                                                             *
+* Contact information: contact@sofa-framework.org                             *
+******************************************************************************/
+#include <sofa/core/objectmodel/MemorySnapshot.h>
+#include <nlohmann/json.hpp>
+
+#include <fstream>
+#include <string>
+#include <stdexcept>
+#include <iostream>
+#include <sofa/helper/system/SetDirectory.h>
+
+#include <sofa/core/objectmodel/Data.h>
+
+
+namespace sofa::core::objectmodel
+{
+
+
+MemorySnapshot::MemorySnapshot()
+{}
+MemorySnapshot::~MemorySnapshot() = default;
+
+void MemorySnapshot::exportTo(const std::string filename)
+{
+    std::cout << "exportTo" << std::endl;
+}
+
+void MemorySnapshot::importSnapshot(const std::string filename)
+{
+    std::cout << "importSnapshot" << std::endl;
+
+    
+}
+
+
+void MemorySnapshot::importFrom(const std::string filename)
+{
+    std::cout << "importFrom" << std::endl;
+
+}
+
+
+
+
+} // namespace sofa::core::objectmodel
