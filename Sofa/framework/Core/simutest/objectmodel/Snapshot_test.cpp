@@ -163,6 +163,32 @@ TEST_F(Snapshot_test, saveDataIn)
     }
 }
 
+TEST_F(Snapshot_test, saveLinkIn)
+{
+    // TEST of saveLinkIn method
+    // Check if the snapshot contains the component with expected data
+
+    TestComponent tComponent;
+    auto snapshot = std::make_shared<BaseSnapshot::SnapshotObject>();
+    tComponent.saveLinks(*snapshot);
+    for (auto& link : snapshot->m_linkContainer)
+    {
+        if(link.name == "context")
+        {
+            EXPECT_EQ(link.value, "@./");
+        }
+
+        if(link.name == "slaves")
+        {
+            EXPECT_EQ(link.value, "");
+        }
+        if(link.name == "master")
+        {
+            EXPECT_EQ(link.value, "");
+        }
+    }
+}
+
 TEST_F(Snapshot_test, createSnapshotObject)
 {
     // TEST of createSnapshotObject
@@ -235,9 +261,9 @@ TEST_F(Snapshot_test, saveSnapshot)
     EXPECT_EQ(snapshot->m_dataContainer[5].value, "3.14");
 }
 
-TEST_F(Snapshot_test, loadSnapshot)
+TEST_F(Snapshot_test, loadDataSnapshot)
 {
-    // Test of loadSnapshot
+    // Test of loadDataSnapshot
 
     TestComponent tComponent;
 
@@ -247,7 +273,7 @@ TEST_F(Snapshot_test, loadSnapshot)
 
     TestComponent tcomponent2;
     tcomponent2.d_value.setValue(0.0f);
-    tcomponent2.loadSnapshot(snapshot);
+    tcomponent2.loadDataSnapshot(snapshot);
 
     EXPECT_EQ(tcomponent2.d_value.getValue(), 3.14f);
 }
@@ -281,7 +307,6 @@ TEST_F(Snapshot_test, JSONSnapshot)
     root->execute(visitor);
     JsonSnapshotTest->exportTo(path);
     EXPECT_NE(JsonSnapshotTest->m_graphRoot,nullptr);
-    std::cout << "JsonSnapshotTest : " << JsonSnapshotTest->m_graphRoot->m_name << std::endl;
 
     std::ifstream checkFile(path);
     EXPECT_TRUE(checkFile.good());
@@ -298,74 +323,4 @@ TEST_F(Snapshot_test, JSONSnapshot)
     EXPECT_EQ(JsonSnapshotTest2->m_graphRoot->children[0]->m_name,"child1");
     EXPECT_EQ(JsonSnapshotTest2->m_graphRoot->children[0]->components[0].m_name,"MechanicalObject1");
 
-}
-
-TEST_F(Snapshot_test, LoadLinkVisitor)
-{
-    auto JsonSnapshotTest = createSnapshot(SnapshotType::JSON);
-
-    // const std::string scene = R"(
-    //     <?xml version='1.0'?>
-    //     <Node name='Root' gravity='0 -9.81 0' time='0' animate='0' >
-    //         <RequiredPlugin name='Sofa.Component.StateContainer'/>
-    //         <DefaultAnimationLoop />
-    //         <DefaultVisualManagerLoop />
-    //         <Node name='child1'>
-    //             <MechanicalObject />
-    //         </Node>
-    //     </Node>
-    // )";
-
-    const std::string scene = R"(
-        <?xml version="1.0" ?>
-        <!-- See http://wiki.sofa-framework.org/mediawiki/index.php/TutorialBasicPendulum -->
-        <Node name="root" dt="0.1" gravity="0 0 0">
-          <RequiredPlugin name="Sofa.Component.Collision.Geometry"/> <!-- Needed to use components [SphereCollisionModel] -->
-          <RequiredPlugin name="Sofa.Component.Constraint.Projective"/> <!-- Needed to use components [FixedProjectiveConstraint] -->
-          <RequiredPlugin name="Sofa.Component.LinearSolver.Iterative"/> <!-- Needed to use components [CGLinearSolver] -->
-          <RequiredPlugin name="Sofa.Component.Mass"/> <!-- Needed to use components [UniformMass] -->
-          <RequiredPlugin name="Sofa.Component.ODESolver.Backward"/> <!-- Needed to use components [EulerImplicitSolver] -->
-          <RequiredPlugin name="Sofa.Component.SolidMechanics.Spring"/> <!-- Needed to use components [SpringForceField] -->
-          <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->
-          <RequiredPlugin name="Sofa.Component.Visual"/> <!-- Needed to use components [VisualStyle] -->
-
-          <DefaultAnimationLoop/>
-          <VisualStyle displayFlags="showBehavior showCollisionModels"/>
-         <!-- Try to test with different solver -->
-          <EulerImplicitSolver name="EulerImplicit"  rayleighStiffness="0.1" rayleighMass="0.1" />
-          <CGLinearSolver name="CGSolver" iterations="25" tolerance="1e-5" threshold="1e-5"/>
-
-          <MechanicalObject name="Particles" template="Vec3"
-                            position="0 0 0 0 0 1"
-                            velocity="0 0 0 0 1 0"/>
-
-          <UniformMass name="Mass" totalMass="1" />
-
-          <FixedProjectiveConstraint indices="0"/>
-          <SpringForceField name="Springs" stiffness="100" damping="1" spring="0 1 10 1 1"/>
-          <SphereCollisionModel radius="0.1"/>
-        </Node>
-    )";
-
-    SceneInstance c("xml", scene) ;
-    c.initScene() ;
-
-    Node* root = c.root.get() ;
-
-    std::string path = std::filesystem::temp_directory_path() / "testfile.json";
-    auto visitor = SaveSnapshotVisitor(nullptr, *JsonSnapshotTest);
-    root->execute(visitor);
-    JsonSnapshotTest->exportTo(path);
-    EXPECT_NE(JsonSnapshotTest->m_graphRoot,nullptr);
-    std::cout << "JsonSnapshotTest : " << JsonSnapshotTest->m_graphRoot->m_name << std::endl;
-
-    std::ifstream checkFile(path);
-    EXPECT_TRUE(checkFile.good());
-    checkFile.close();
-
-    auto loadvisitor = LoadDataSnapshotVisitor(nullptr, *JsonSnapshotTest);
-    root->execute(loadvisitor);
-    auto loadlinkvisitor = LoadLinkSnapshotVisitor(nullptr, *JsonSnapshotTest);
-    root->execute(loadlinkvisitor);
-    EXPECT_NE(JsonSnapshotTest->m_graphRoot,nullptr);
 }

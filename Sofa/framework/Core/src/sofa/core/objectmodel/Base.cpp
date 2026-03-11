@@ -393,6 +393,7 @@ bool Base::findDataLinkDest(BaseData*& ptr, const std::string& path, const BaseL
 
 Base* Base::findLinkDestClass(const BaseClass* /*destType*/, const std::string& /*path*/, const BaseLink* /*link*/)
 {
+    std::cout << "Base::findLinkDestClass return nullptr" << std::endl;
     msg_error() << "Base: calling unimplemented findLinkDest method" ;
     return nullptr;
 }
@@ -793,17 +794,12 @@ void Base::loadDataSnapshot(const std::shared_ptr<BaseSnapshot::SnapshotObject>&
 
 void Base::loadLinkSnapshot(const std::shared_ptr<BaseSnapshot::SnapshotObject>& snapshotObject) const
 {
+    if (this->getClassName() != "Node")
     for (const auto& linkInfo : snapshotObject->m_linkContainer)
     {
         if (const auto link = this->findLink(linkInfo.name))
         {
-            if(linkInfo.name != "odeSolver" && linkInfo.name != "linearSolver")
-            {
-                std::cout << "===========link name : " << linkInfo.name << std::endl;
-                std::cout << "===========link value : " << linkInfo.value << std::endl;
-                link->read(linkInfo.value);
-            }
-            
+            link->read(linkInfo.value);
         }
     }
 }

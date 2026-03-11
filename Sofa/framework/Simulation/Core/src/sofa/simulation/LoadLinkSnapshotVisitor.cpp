@@ -47,6 +47,7 @@ Visitor::Result LoadLinkSnapshotVisitor::processNodeTopDown(simulation::Node* no
     {
         this->processObject(it->get(), SnapshotNode);
     }
+    node->updateLinks();
     return RESULT_CONTINUE;
 }
 
