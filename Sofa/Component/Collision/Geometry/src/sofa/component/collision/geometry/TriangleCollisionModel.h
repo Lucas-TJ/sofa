@@ -192,6 +192,42 @@ public:
     const VecDeriv& getNormals() const { return m_normals; }
     int getTriangleFlags(sofa::core::topology::BaseMeshTopology::TriangleID i);
 
+    void saveInternalStateIn(sofa::core::objectmodel::Snapshot::SnapshotObject& snapshot) const override
+    {
+        sofa::core::objectmodel::Snapshot::DataInfo dataInfo;
+
+        std::stringstream ss;
+        this->m_triangles->write(ss);
+
+        dataInfo.name = "m_triangles";
+        dataInfo.type = "vector";
+        dataInfo.value = ss.str();
+
+        snapshot.m_dataContainer.push_back(dataInfo);
+
+    }
+
+    void loadInternalStateFrom(const core::objectmodel::Snapshot::SnapshotObject &snapshot) override
+    {
+        for (const auto& dataInfo : snapshot.m_dataContainer)
+        {
+            if (dataInfo.name == "m_triangles")
+            {
+                // std::stringstream ss(dataInfo.value);
+                // std::istringstream iss(dataInfo.value);
+                // this->m_internalTriangles.read(iss);
+                // m_triangles = &m_internalTriangles;
+                // m_needsUpdate = true;
+
+                m_triangles = &m_topology->getTriangles();
+                resize(m_topology->getNbTriangles());
+                updateNormals();
+
+            }
+
+        }
+    }
+
     Deriv velocity(sofa::Index index)const;
 
     void saveInternalStateIn(sofa::core::objectmodel::Snapshot::SnapshotObject& snapshot) const override
