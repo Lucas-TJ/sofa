@@ -35,7 +35,7 @@ namespace sofa::core::objectmodel
 
 
 
-void to_json(nlohmann::json& j, const Snapshot::DataInfo& di )
+void to_json(nlohmann::ordered_json& j, const Snapshot::DataInfo& di )
 {
     j.clear();
     j["name"]  = di.name;
@@ -43,7 +43,7 @@ void to_json(nlohmann::json& j, const Snapshot::DataInfo& di )
     j["value"] = di.value;
 }
 
-void to_json(nlohmann::json& j, const Snapshot::LinkInfo& li )
+void to_json(nlohmann::ordered_json& j, const Snapshot::LinkInfo& li )
 {
     j.clear();
     j["name"]       = li.name;
@@ -51,60 +51,61 @@ void to_json(nlohmann::json& j, const Snapshot::LinkInfo& li )
     j["value"]       = li.value;
 }
 
-void to_json(nlohmann::json& j, const Snapshot::SnapshotObject& so )
+
+
+void to_json(nlohmann::ordered_json& j, const Snapshot::SnapshotObject& so )
 {
     j.clear();
     j["name"] = so.m_name;
-    j["datas"] = so.m_dataContainer;
+    j["classname"] = so.m_className;
+    j["data"] = so.m_dataContainer;
     j["links"] = so.m_linkContainer;
+    j["slaves"] = nlohmann::json::array();
+    for (const auto& childPtr : so.m_components)
+    {
+        if(childPtr)
+        {
+            j["slaves"].push_back(*childPtr);
+        }
+        else
+        {
+            j["slaves"].push_back(nullptr);
+        }
+    }
+
 }
 
-void to_json(nlohmann::json& j, const Snapshot::SnapshotNode& sn)
+
+void to_json(nlohmann::ordered_json& j, const Snapshot::SnapshotNode& sn)
 {
     j.clear();
     j["name"] = sn.m_name;
-    j["datas"] = sn.m_dataContainer;
+    j["classname"] = sn.m_className;
+    j["data"] = sn.m_dataContainer;
     j["links"] = sn.m_linkContainer;
-    j["components"] = sn.components;
+
+    j["components"] = nlohmann::json::array();
+    for (const auto& childPtr : sn.m_components)
+    {
+        if (childPtr)
+            j["components"].push_back(*childPtr);
+        else
+            j["components"].push_back(nullptr);
+    }
 
     j["children"] = nlohmann::json::array();
-    for (const auto& childPtr : sn.children)
+    for (const auto& childPtr : sn.m_children)
     {
-        if(childPtr)
-        {
+        if (childPtr)
             j["children"].push_back(*childPtr);
-        }
         else
-        {
             j["children"].push_back(nullptr);
-        }
     }
 }
 
-void to_json(nlohmann::json& j, const std::shared_ptr<Snapshot::SnapshotNode>& sn)
+void exportToJSON(const Snapshot& snapshot, const std::string& filename)
 {
-    j.clear();
-    j["name"] = sn->m_name;
-    j["datas"] = sn->m_dataContainer;
-    j["links"] = sn->m_linkContainer;
-    j["components"] = sn->components;
-    j["children"] = nlohmann::json::array();
-    for (const auto& childPtr : sn->children)
-    {
-        if(childPtr)
-        {
-            j["children"].push_back(*childPtr);
-        }
-        else
-        {
-            j["children"].push_back(nullptr);
-        }
-    }
-}
-
-void exportToJSON(Snapshot& snapshot, const std::string& filename)
-{
-    nlohmann::json j = snapshot.m_graphRoot ;
+    nlohmann::ordered_json j = *snapshot.m_graphRoot ;
 
     std::ofstream file(filename);
     file << j.dump(5);
@@ -128,11 +129,12 @@ void from_json(const nlohmann::json& j, Snapshot::LinkInfo& li)
 void from_json(const nlohmann::json& j, Snapshot::SnapshotObject& so)
 {
     so.m_name = j.value("name", "");
+    so.m_className = j.value("classname", "");
     
-    if (j.contains("datas") && j["datas"].is_array())
+    if (j.contains("data") && j["data"].is_array())
     {
         so.m_dataContainer.clear();
-        for (const auto& dataJson : j["datas"])
+        for (const auto& dataJson : j["data"])
         {
             Snapshot::DataInfo di;
             from_json(dataJson, di);
@@ -150,16 +152,31 @@ void from_json(const nlohmann::json& j, Snapshot::SnapshotObject& so)
             so.m_linkContainer.push_back(li);
         }
     }
+
+    so.m_components.clear();
+    if (j.contains("slaves") && j["slaves"].is_array())
+    {
+        for (const auto& childJson : j["slaves"])
+        {
+            if (!childJson.is_null())
+            {
+                auto child = std::make_shared<Snapshot::SnapshotNode>();
+                from_json(childJson, *child);
+                so.m_components.push_back(child);
+            }
+        }
+    }
 }
 
 void from_json(const nlohmann::json& j, Snapshot::SnapshotNode& sn)
 {
     sn.m_name = j.value("name", "");
+    sn.m_className = j.value("classname", "");
     
-    if (j.contains("datas") && j["datas"].is_array())
+    if (j.contains("data") && j["data"].is_array())
     {
         sn.m_dataContainer.clear();
-        for (const auto& dataJson : j["datas"])
+        for (const auto& dataJson : j["data"])
         {
             Snapshot::DataInfo di;
             from_json(dataJson, di);
@@ -177,19 +194,22 @@ void from_json(const nlohmann::json& j, Snapshot::SnapshotNode& sn)
             sn.m_linkContainer.push_back(li);
         }
     }
-    
+
+    sn.m_components.clear();
     if (j.contains("components") && j["components"].is_array())
     {
-        sn.components.clear();
-        for (const auto& compJson : j["components"])
+        for (const auto& childJson : j["components"])
         {
-            Snapshot::SnapshotObject so;
-            from_json(compJson, so);
-            sn.components.push_back(so);
+            if (!childJson.is_null())
+            {
+                auto child = std::make_shared<Snapshot::SnapshotObject>();
+                from_json(childJson, *child);
+                sn.m_components.push_back(child);
+            }
         }
     }
     
-    sn.children.clear();
+    sn.m_children.clear();
     if (j.contains("children") && j["children"].is_array())
     {
         for (const auto& childJson : j["children"])
@@ -198,7 +218,7 @@ void from_json(const nlohmann::json& j, Snapshot::SnapshotNode& sn)
             {
                 auto child = std::make_shared<Snapshot::SnapshotNode>();
                 from_json(childJson, *child);
-                sn.children.push_back(child);
+                sn.m_children.push_back(child);
             }
         }
     }
@@ -252,19 +272,19 @@ std::string fileToString(const std::string& filename)
 
 std::string snapshotToString(const Snapshot& snapshot)
 {
-    nlohmann::json j = snapshot.m_graphRoot ;
+    nlohmann::ordered_json j = *snapshot.m_graphRoot ;
     return to_string(j);
 }
 
-void exportToJSON(std::map<std::string, std::shared_ptr<Snapshot>>& snapshots, const std::string& filename)
+void exportToJSON(const std::map<std::string, std::shared_ptr<Snapshot>>& snapshots, const std::string& filename)
 {
     std::ofstream file(filename);
 
-    nlohmann::json j_all = nlohmann::json::array();
+    nlohmann::ordered_json j_all = nlohmann::json::array();
 
     for (const auto& snapshotJson : snapshots)
     {
-        j_all.push_back(snapshotJson.second->m_graphRoot);
+        j_all.push_back(*snapshotJson.second->m_graphRoot);
     }
     file << j_all.dump(5);
     file.close();

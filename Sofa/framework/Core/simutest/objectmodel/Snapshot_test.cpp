@@ -22,10 +22,7 @@
 #include <iostream>
 #include <vector>
 #include <sofa/core/objectmodel/Base.h>
-
-#include "gtest/gtest.h"
 using sofa::core::objectmodel::Base ;
-using sofa::core::objectmodel::ComponentState;
 
 #include <sofa/testing/BaseSimulationTest.h>
 using sofa::testing::BaseSimulationTest ;
@@ -40,19 +37,29 @@ using sofa::core::objectmodel::Snapshot;
 #include <sofa/simulation/SaveSnapshotVisitor.h>
 using sofa::simulation::SaveSnapshotVisitor;
 
+#include <sofa/simulation/LoadSnapshotVisitor.h>
+using sofa::simulation::LoadSnapshotVisitor;
+
 #include <sofa/core/objectmodel/SnapshotJSONExporter.h>
 
 #include <sofa/core/objectmodel/Data.h>
 using sofa::core::objectmodel::Data;
 using sofa::core::objectmodel::BaseLink;
-using sofa::core::objectmodel::SingleLink;
 using sofa::core::objectmodel::MultiLink;
-using sofa::core::objectmodel::Snapshot;
-using sofa::core::objectmodel::BaseNode;
 
 #include <filesystem>
 #include <fstream>
 
+/**
+*  \brief Test component used by Snapshot unit tests
+*
+*  This class provides a minimal implementation of a BaseComponent to validate the Snapshot API.
+*  It contains helper methods to test the serialization of data and links, createSnapshotObject and findSnapshotObject.
+*
+*  The component contains :
+*  - a Data called "d_value" used to validate data serialization
+*  - a MultiLink called "l_target" used to validate link serialization
+*/
 class TestComponent : public BaseComponent
 {
 public:
@@ -66,6 +73,11 @@ public:
         , l_target(initLink("target","target test"))
     {
         this->setName("TestComponent");
+    }
+
+    ~TestComponent() override
+    {
+
     }
 
     void saveData(Snapshot::SnapshotObject& snapshot)
@@ -90,13 +102,11 @@ public:
             linkInfo.type = link->getValueTypeString();
             linkInfo.value = link->getValueString();
 
-            std::string search = "//";
-            sofa::helper::replaceAll(linkInfo.value, search,"");
             snapshot.m_linkContainer.push_back(linkInfo);
         }
     }
 
-    std::shared_ptr<Snapshot::SnapshotObject> createSnapshotObjectTest(std::vector<std::shared_ptr<Snapshot::SnapshotNode>>& parents) const
+    std::shared_ptr<Snapshot::SnapshotObject> createSnapshotObjectTest(const std::shared_ptr<Snapshot::SnapshotObject>& parents) const
     {
 
         return this->createSnapshotObject(parents);
@@ -196,7 +206,7 @@ TEST_F(Snapshot_test, createSnapshotObject)
 {
     TestComponent Component;
 
-    std::vector<std::shared_ptr<Snapshot::SnapshotNode>> snapshotParents;
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
     auto snapshotObject = Component.createSnapshotObjectTest(snapshotParents);
 
     snapshotObject->m_name = "snapshotObject";
@@ -229,11 +239,11 @@ TEST_F(Snapshot_test, findSnapshotObject)
 {
     TestComponent Component;
     auto snapshotNode = std::make_shared<Snapshot::SnapshotNode>("root");
-    std::vector<std::shared_ptr<Snapshot::SnapshotNode>> snapshotParents;
-    snapshotParents.push_back(snapshotNode);
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+    snapshotParents->m_children.push_back(snapshotNode);
 
     auto snapshot = Component.saveSnapshot(snapshotParents);
-    snapshotNode->components.push_back(*snapshot);
+    snapshotNode->m_components.push_back(snapshot);
 
     auto expectedObject = Component.findSnapshotObjectTest(snapshotNode, "TestComponent");
 
@@ -247,16 +257,22 @@ TEST_F(Snapshot_test, findSnapshotObject)
  * This test verifies that saveSnapshot save the data to a previously saved snapshot.
  *
  * Test steps:
- * 1. Create a component (Component) and a snapshot
- * 2. Save Component1's data in the snapshot
- * 3. Verify if the snapshot contains all the data from Component1
+ * 1. Create a component (Component) and a empty snapshot
+ * 2. Verify if the snapshot is created and empty
+ * 3. Save Component's data in the snapshot
+ * 4. Verify if the snapshot contains all the data from Component
  *
  */
 TEST_F(Snapshot_test, saveSnapshot)
 {
     TestComponent Component;
     auto snapshot = std::make_shared<Snapshot::SnapshotObject>();
-    std::vector<std::shared_ptr<Snapshot::SnapshotNode>> snapshotParents;
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+
+    ASSERT_NE(snapshot, nullptr);
+    EXPECT_EQ(snapshot->m_name, "");
+    EXPECT_TRUE(snapshot->m_dataContainer.empty());
+    EXPECT_TRUE(snapshot->m_linkContainer.empty());
 
     snapshot = Component.saveSnapshot(snapshotParents);
 
@@ -274,9 +290,113 @@ TEST_F(Snapshot_test, saveSnapshot)
 }
 
 /**
+ * @brief Test of saveSnapshot (change the default value)
+ *
+ * This test verifies that saveSnapshot save the data to a previously saved snapshot.
+ *
+ * Test steps:
+ * 1. Create a component (Component) and a empty snapshot
+ * 2. Change the default value before saving the snapshot
+ * 3. Save Component's data in the snapshot
+ * 4. Verify if the snapshot contains all the data from Component
+ *
+ */
+TEST_F(Snapshot_test, saveSnapshotBis)
+{
+    TestComponent Component;
+    auto snapshot = std::make_shared<Snapshot::SnapshotObject>();
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+
+    EXPECT_EQ(Component.d_value.getValue(),3.14f);
+    Component.d_value.setValue(0.0f);
+
+    snapshot = Component.saveSnapshot(snapshotParents);
+
+    EXPECT_EQ(snapshot->m_name, "TestComponent");
+    EXPECT_EQ(snapshot->m_dataContainer.back().name, "pi");
+    EXPECT_EQ(snapshot->m_dataContainer.back().value, "0");
+
+}
+
+/**
+ * @brief Test of saveSnapshot (with SLAVE)
+ *
+ * This test verifies that saveSnapshot save a component with a slave.
+ *
+ * Test steps:
+ * 1. Create a component (Component) and a empty snapshot
+ * 2. Add a slave (called "Slave") to the component (Component)
+ * 3. Save Component in a snapshot
+ * 4. Verify if the snapshot contains Component and Slave, with the correct hierarchy
+ *
+ */
+TEST_F(Snapshot_test, saveSnapshotWithSlave)
+{
+    auto Component = sofa::core::objectmodel::New<TestComponent>();
+    auto snapshot = std::make_shared<Snapshot::SnapshotObject>();
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+
+    snapshot = Component->saveSnapshot(snapshotParents);
+
+    EXPECT_EQ(snapshot->m_linkContainer[1].name, "slaves");
+    EXPECT_EQ(snapshot->m_linkContainer[1].value, "");
+
+    auto Slave = sofa::core::objectmodel::New<TestComponent>();
+    Slave->setName("Slave");
+    Component->addSlave(Slave);
+
+    snapshot = Component->saveSnapshot(snapshotParents);
+
+    EXPECT_EQ(snapshot->m_linkContainer[1].name, "slaves");
+    EXPECT_EQ(snapshot->m_linkContainer[1].value, "@SlaveTestComponent/Slave");
+
+    Component->removeSlave(Slave);
+}
+
+/**
+ * @brief Test of loadSnapshot (with SLAVE)
+ *
+ * This test verifies that loadSnapshot restores the state of a component with his slave.
+ *
+ * Test steps:
+ * 1. Create a component (Component) and a snapshot
+ * 2. Create and add a slave (called "Slave") to Component
+ * 3. Save Component in a snapshot
+ * 4. Change a value of a data from Slave (change d_value from 3.14f to 0.0f)
+ * 5. Load Component's data from the snapshot
+ * 5. Verify if Slave's data are restored
+ *
+ */
+TEST_F(Snapshot_test, loadSnapshotWithSlave)
+{
+    auto Component = sofa::core::objectmodel::New<TestComponent>();
+    auto snapshot = std::make_shared<Snapshot>();
+    auto snapshotNode = std::make_shared<Snapshot::SnapshotNode>();
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+
+    auto Slave = sofa::core::objectmodel::New<TestComponent>();
+    Slave->setName("Slave");
+    Component->addSlave(Slave);
+
+    auto saveVisitor = SaveSnapshotVisitor(nullptr, *snapshot);
+    saveVisitor.processObject(Component.get(),snapshotNode);
+
+    Slave->d_value.setValue(0.0f);
+    EXPECT_EQ(Slave->d_value.getValue(), 0.0f);
+
+    auto loadVisitor = LoadSnapshotVisitor(nullptr, *snapshot);
+    loadVisitor.processObject(Component.get(),snapshotNode);
+
+    EXPECT_EQ(Slave->d_value.getValue(), 3.14f);
+
+    Component->removeSlave(Slave);
+
+}
+
+/**
  * @brief Test of loadDataSnapshot
  *
- * This test verifies that loadLinkSnapshot restores the state of data to a previously saved snapshot
+ * This test verifies that loadDataSnapshot restores the state of data to a previously saved snapshot
  *
  * Test steps:
  * 1. Create a component (Component1) and a snapshot
@@ -290,7 +410,7 @@ TEST_F(Snapshot_test, loadDataSnapshot)
 {
     TestComponent Component1;
     auto snapshot = std::make_shared<Snapshot::SnapshotObject>();
-    std::vector<std::shared_ptr<Snapshot::SnapshotNode>> snapshotParents;
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
 
     snapshot = Component1.saveSnapshot(snapshotParents);
 
@@ -332,8 +452,8 @@ TEST_F(Snapshot_test, loadLinkSnapshot)
     scene.root->addObject(Component3);
 
     auto snapshotNode = std::make_shared<Snapshot::SnapshotNode>("root");
-    std::vector<std::shared_ptr<Snapshot::SnapshotNode>> snapshotParents;
-    snapshotParents.push_back(snapshotNode);
+    auto snapshotParents = std::make_shared<Snapshot::SnapshotNode>();
+    snapshotParents->m_children.push_back(snapshotNode);
 
     TestComponent* ptr = Component2.get();
     Component1->l_target.add(ptr);
@@ -365,7 +485,8 @@ TEST_F(Snapshot_test, loadLinkSnapshot)
  * 4. Export m_snapshot to a JSON file and check if the file is valid
  * 5. Create another snapshot (snapshot_import)
  * 6. Import the JSON file in snapshot_import
- * 7. Compare m_snapshot and snapshot_import
+ * 7. Compare snapshot_import with the scene
+ * 8. Compare snapshot and snapshot_import
  *
  */
 TEST_F(Snapshot_test, SnapshotJSONExporter)
@@ -405,10 +526,16 @@ TEST_F(Snapshot_test, SnapshotJSONExporter)
     EXPECT_NE(snapshot_import->m_graphRoot,nullptr);
 
     EXPECT_EQ(snapshot_import->m_graphRoot->m_name,"Root");
-    EXPECT_EQ(snapshot_import->m_graphRoot->components[1].m_name,"DefaultAnimationLoop1");
-    EXPECT_EQ(snapshot_import->m_graphRoot->components[2].m_name,"DefaultVisualManagerLoop1");
-    EXPECT_EQ(snapshot_import->m_graphRoot->children[0]->m_name,"child1");
-    EXPECT_EQ(snapshot_import->m_graphRoot->children[0]->components[0].m_name,"MechanicalObject1");
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_components[1]->m_name,"DefaultAnimationLoop1");
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_components[2]->m_name,"DefaultVisualManagerLoop1");
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_children[0]->m_name,"child1");
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_children[0]->m_components[0]->m_name,"MechanicalObject1");
+
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_name,snapshot->m_graphRoot->m_name);
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_components[1]->m_name,snapshot->m_graphRoot->m_components[1]->m_name);
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_components[2]->m_name,snapshot->m_graphRoot->m_components[2]->m_name);
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_children[0]->m_name,snapshot->m_graphRoot->m_children[0]->m_name);
+    EXPECT_EQ(snapshot_import->m_graphRoot->m_children[0]->m_components[0]->m_name,snapshot->m_graphRoot->m_children[0]->m_components[0]->m_name);
 
     std::filesystem::remove(path);
 }

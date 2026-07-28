@@ -58,10 +58,11 @@ public:
     struct SnapshotObject
     {
         std::string m_name;
+        std::string m_className;
         std::vector<DataInfo> m_dataContainer;
         std::vector<LinkInfo> m_linkContainer;
         void* m_internalState { nullptr };
-
+        std::vector<std::shared_ptr<SnapshotObject>> m_components;
 
         virtual void clear()
         {
@@ -79,6 +80,11 @@ public:
             m_linkContainer.push_back(link);
         }
 
+        void push_back(const std::shared_ptr<SnapshotObject>& component)
+        {
+            m_components.push_back(component);
+        }
+
         SnapshotObject() = default;
         explicit SnapshotObject(std::string  name) : m_name(std::move(name)){}
 
@@ -87,25 +93,19 @@ public:
 
     struct SnapshotNode : public SnapshotObject
     {
-        std::vector<SnapshotObject> components;
-        std::vector<std::shared_ptr<SnapshotNode>> children;
+        std::vector<std::shared_ptr<SnapshotNode>> m_children;
 
         void clear() override
         {
-            components.clear();
-            children.clear();  
+            m_components.clear();
+            m_children.clear();
             m_dataContainer.clear();
             m_linkContainer.clear();
         }
 
         void push_back(const std::shared_ptr<SnapshotNode>& child)
         {
-            children.push_back(child);
-        }
-
-        void push_back(const SnapshotObject& component)
-        {
-            components.push_back(component);
+            m_children.push_back(child);
         }
 
         SnapshotNode() = default;

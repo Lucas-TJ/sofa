@@ -25,7 +25,6 @@
 #include <sofa/core/behavior/OdeSolver.h>
 #include <sofa/core/collision/Pipeline.h>
 #include <sofa/core/visual/VisualLoop.h>
-#include <sofa/core/objectmodel/Snapshot.h>
 
 namespace sofa::core::objectmodel
 {
@@ -64,22 +63,17 @@ core::visual::VisualLoop* BaseNode::getVisualLoop() const
 }
 
 std::shared_ptr<Snapshot::SnapshotObject>
-BaseNode::createSnapshotObject(std::vector<std::shared_ptr<Snapshot::SnapshotNode>>& parents) const
+BaseNode::createSnapshotObject(const std::shared_ptr<Snapshot::SnapshotObject>& parent) const
 {
     auto nodeObject = std::make_shared<Snapshot::SnapshotNode>();
-    for (auto p : parents)
-    {
-        if (p)
-        {
-            p->children.push_back(nodeObject);
-        }
-    }
-    
+    const auto nodeParent = std::dynamic_pointer_cast<Snapshot::SnapshotNode>(parent);
+    nodeParent->m_children.push_back(nodeObject);
+
     return nodeObject;
 }
 
 std::shared_ptr<Snapshot::SnapshotObject>
-BaseNode::findSnapshotObject( const std::shared_ptr<Snapshot::SnapshotNode>& parents, const std::string& objectname)
+BaseNode::findSnapshotObject( const std::shared_ptr<Snapshot::SnapshotNode>& parents, const std::string& objectname) const
 {
     if (!parents) return nullptr;
 
@@ -88,7 +82,7 @@ BaseNode::findSnapshotObject( const std::shared_ptr<Snapshot::SnapshotNode>& par
         return parents;
     }
 
-    for (const auto& child : parents->children)
+    for (const auto& child : parents->m_children)
     {
         if (auto result = this->findSnapshotObject(child, objectname))
             return result;
