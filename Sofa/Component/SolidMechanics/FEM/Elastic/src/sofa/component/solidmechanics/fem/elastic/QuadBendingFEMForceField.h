@@ -303,7 +303,7 @@ public:
 };
 #if !defined(SOFA_COMPONENT_FORCEFIELD_QUADBENDINGFEMFORCEFIELD_CPP)
 
-extern template class SOFA_MISC_FEM_API QuadBendingFEMForceField<defaulttype::Vec3Types>;
+extern template class SOFA_COMPONENT_SOLIDMECHANICS_FEM_ELASTIC_API QuadBendingFEMForceField<defaulttype::Vec3Types>;
 
 
 #endif //  !defined(SOFA_COMPONENT_FORCEFIELD_QUADBENDINGFEMFORCEFIELD_CPP)
