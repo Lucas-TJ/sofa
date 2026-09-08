@@ -325,7 +325,6 @@ bool BaseLink::read( const std::string& str )
 
 bool BaseLink::readFromSnapshot( const std::string& str )
 {
-    this->updateLinks();
     bool result = true;
 
     if (str.empty())
@@ -394,7 +393,7 @@ bool BaseLink::readFromSnapshot( const std::string& str )
                 result = false;
                 continue;
             }
-            this->add(ptr);
+            this->addRawPtr(ptr);
         }
     }
     return result;
