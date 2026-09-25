@@ -19,66 +19,6 @@
 *                                                                             *
 * Contact information: contact@sofa-framework.org                             *
 ******************************************************************************/
-<<<<<<<< HEAD:Sofa/framework/Simulation/Core/src/sofa/simulation/SaveSnapshotVisitor.cpp
-#include <sofa/simulation/SaveSnapshotVisitor.h>
-#include <sofa/simulation/Node.h>
-
-
-namespace sofa::simulation
-{
-
-void SaveSnapshotVisitor::processObject(
-    const core::objectmodel::BaseObject* obj,
-    const std::shared_ptr<core::objectmodel::Snapshot::SnapshotNode>& parent)
-{
-    auto snapshotObject = obj->saveSnapshot(parent);
-    if (auto slaves = obj->getSlaves(); !slaves.empty())
-    {
-        for (const auto& it : slaves)
-        {
-            const auto slaveObject = it->saveSnapshot(snapshotObject);
-        }
-    }
-
-}
-
-Visitor::Result SaveSnapshotVisitor::processNodeTopDown(simulation::Node* node)
-{
-    const auto parents = node->getParents();
-    auto snapshotParents = std::make_shared<core::objectmodel::Snapshot::SnapshotNode>();
-
-    for (auto* p : parents)
-    {
-        const auto it = m_snapshotNodeMap.find(p);
-        if (it != m_snapshotNodeMap.end())
-        {
-            snapshotParents = std::dynamic_pointer_cast<core::objectmodel::Snapshot::SnapshotNode>(it->second);
-        }
-    }
-
-    const auto snapshot = node->saveSnapshot(snapshotParents);
-    const auto SnapshotNode = std::dynamic_pointer_cast<core::objectmodel::Snapshot::SnapshotNode>(snapshot);
-    if (SnapshotNode)
-        m_snapshotNodeMap[node] = SnapshotNode;
-
-    if (m_snapshotContainer.m_graphRoot == nullptr)
-    {
-        m_snapshotContainer.m_graphRoot = SnapshotNode;
-    }
-
-    for (const auto& it : node->object)
-    {
-        this->processObject(it.get(), SnapshotNode);
-    }
-
-    return RESULT_CONTINUE;
-}
-
-} // namespace sofa::simulation
-
-
-
-========
 #pragma once
 #include <sofa/simulation/config.h>
 
@@ -125,4 +65,3 @@ protected:
 } // namespace sofa::component::integrationscheme
 
 
->>>>>>>> origin/master:Sofa/framework/Simulation/Core/src/sofa/simulation/integrationscheme/ExplicitIntegrationScheme.h
