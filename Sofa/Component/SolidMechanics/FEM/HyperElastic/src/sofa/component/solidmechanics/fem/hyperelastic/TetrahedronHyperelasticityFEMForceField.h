@@ -131,7 +131,7 @@ public:
             in >> eri.m_SPKTensorGeneral;
             in >> eri.m_deformationGradient;
             in >> eri.m_strainEnergy;
-            
+
             return in;
         }
 

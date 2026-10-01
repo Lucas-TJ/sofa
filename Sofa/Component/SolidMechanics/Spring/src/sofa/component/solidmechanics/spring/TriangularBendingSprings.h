@@ -109,7 +109,7 @@ public:
             in >> ei.restlength;
             in >> ei.is_activated;
             in >> ei.is_initialized;
-            
+
             return in;
         }
     };
