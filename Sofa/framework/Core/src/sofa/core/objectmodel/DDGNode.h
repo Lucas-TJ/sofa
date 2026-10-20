@@ -87,6 +87,7 @@ public:
     /// Utility method to call update if necessary. This method should be called before reading of writing the value of this node.
     void updateIfDirty() const;
 
+    bool m_loadingSnapshot = false;
 protected:
     DDGLinkContainer inputs;
     DDGLinkContainer outputs;
