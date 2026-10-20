@@ -79,8 +79,9 @@ void DDGNode::cleanDirty()
 
 void DDGNode::notifyEndEdit()
 {
-    for(const auto it : outputs)
-        it->notifyEndEdit();
+    if (!m_loadingSnapshot)
+        for(const auto it : outputs)
+            it->notifyEndEdit();
 }
 
 void DDGNode::cleanDirtyOutputsOfInputs()

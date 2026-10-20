@@ -759,15 +759,18 @@ void Base::loadSnapshot(const std::shared_ptr<Snapshot::SnapshotObject>& snapsho
     {
         if (const auto data = this->findData(dataInfo.m_name))
         {
+            data->m_loadingSnapshot = true;
             if(data->read(dataInfo.m_value) == 0 )
                 msg_error() << "Failed to read data : " << dataInfo.m_name << " in " << this->getName()  << " from the SnapshotObject " <<
                     snapshotObject->m_name << " (" <<snapshotObject->m_className<< ") : " << dataInfo.m_value;
+            data->m_loadingSnapshot = false;
         }
     }
 
-    for (const auto& linkInfo : snapshotObject->m_linkContainer) {
-        if (const auto link = this->findLink(linkInfo.m_name)) {
-
+    for (const auto& linkInfo : snapshotObject->m_linkContainer)
+    {
+        if (const auto link = this->findLink(linkInfo.m_name))
+        {
             if (link->readFromSnapshot(linkInfo.m_value) == 0 )
                 msg_error() << "Failed to read link :  " << linkInfo.m_name << " in " << this->getName()  << " from the snapshot " <<
                     snapshotObject->m_name << " (" <<snapshotObject->m_className<< ") : "<< linkInfo.m_value;
