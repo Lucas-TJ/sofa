@@ -27,6 +27,7 @@
 #include <sofa/helper/logging/Messaging.h>
 #include <algorithm>
 #include <sofa/core/objectmodel/JSONSnapshot.h>
+#include <sofa/core/ObjectFactory.h>
 #include <utility>
 #include <sofa/helper/system/FileSystem.h>
 using sofa::helper::system::FileSystem;
@@ -36,10 +37,21 @@ using sofa::helper::system::FileSystem;
 namespace sofa::simulation
 {
 
-SnapshotManager::SnapshotManager() = default;
+void registerSnapshotManager(sofa::core::ObjectFactory* factory)
+{
+    factory->registerObjects(sofa::core::ObjectRegistrationData("Manages the snapshots in the simulation")
+        .add< SnapshotManager >());
+}
 
-SnapshotManager::~SnapshotManager() = default;
+SnapshotManager::SnapshotManager()
+{
 
+}
+
+SnapshotManager::~SnapshotManager()
+{
+
+}
 void SnapshotManager::addSnapshotFromFile(const std::string& path)
 {
     m_snapshotsFromFiles.erase(std::remove(m_snapshotsFromFiles.begin(), m_snapshotsFromFiles.end(), path), m_snapshotsFromFiles.end());

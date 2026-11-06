@@ -30,6 +30,7 @@
 #include <sofa/core/objectmodel/Snapshot.h>
 #include <sofa/core/sptr.h>
 #include <sofa/simulation/Node.h>
+#include <sofa/core/objectmodel/BaseComponent.h>
 
 
 namespace sofa::simulation
@@ -55,9 +56,11 @@ namespace sofa::simulation
  * These functions allow sets of snapshots to be saved to and restored from a single file.
  *
  */
-class SOFA_SIMULATION_CORE_API SnapshotManager
+class SOFA_SIMULATION_CORE_API SnapshotManager : public sofa::core::objectmodel::BaseComponent
 {
 public:
+
+    SOFA_CLASS(SnapshotManager, sofa::core::objectmodel::BaseComponent);
     SnapshotManager();
     ~SnapshotManager();
 
